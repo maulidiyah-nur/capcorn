@@ -201,17 +201,18 @@
     .header .logo img {
       width: 100px; }
   .header .menu {
-    font-family: 'Exo-BoldItalic';
-    font-size: 20px;
     margin: 20px 0;
     float: left;
     max-width: calc(100% - 270px); }
     .header .menu a {
+      font-family: 'Exo-BoldItalic';
+      font-size: 20px;
       color: #FFFFFF;
       padding: 0 20px;
       float: left; }
-      .header .menu a:hover {
-        text-decoration: none; }
+      .header .menu a.active, .header .menu a:hover {
+        text-decoration: none;
+        color: #f9e80d; }
     @media (max-width: 575px) {
       .header .menu {
         display: none; } }
@@ -764,15 +765,20 @@
 
 body {
   background-color: #111111;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: relative; }
   body.home {
     background-image: url("../images/bg-smoke.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
-    position: relative; }
+    background-size: contain; }
+
+.content-wrapper {
+  width: 100%;
+  min-height: 100vh; }
 
 a {
+  cursor: pointer;
   color: #FFFFFF;
   font-family: 'Exo-Bold';
   font-size: 18px;

@@ -17,20 +17,22 @@
         }
     }
 
-    .menu{
-        font-family: 'Exo-BoldItalic';
-        font-size: 20px;
+    .menu{        
         margin: 20px 0;
         float: left;
         max-width: calc(100% - 270px);
 
         a{
+            font-family: 'Exo-BoldItalic';
+            font-size: 20px;
             color: $white;
             padding: 0 20px;
             float: left;
 
+            &.active,
             &:hover{
                 text-decoration: none;
+                color: $yellow;
             }
         }
 
