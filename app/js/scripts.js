@@ -18,19 +18,6 @@ $(document).ready(function(){
               var msg = "Sorry but there was an error: ";
               alert( msg + xhr.status + " " + xhr.statusText );
             }
-            else{
-                var owl = $('.owl-carousel');
-                owl.owlCarousel({
-                    items:1,
-                    margin:10,
-                    loop: true,
-                    autoplay: true,
-                    autoplayTimeout:10000,
-                    autoplayHoverPause:true,
-                    dot: true
-                });
-            }
-
             $('.menu-item').removeClass("active");
             $("[data-load='"+source+"']").addClass("active");
         });

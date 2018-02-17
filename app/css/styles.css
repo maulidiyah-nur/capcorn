@@ -766,50 +766,64 @@
     .sponsorship-contact form {
       margin-left: 10px; } }
 
-/* member */
+/* member & member detail */
 .member {
   margin-bottom: 100px; }
+  .member .profile {
+    float: left;
+    width: calc(100% - 150px);
+    position: relative;
+    z-index: 2;
+    position: relative;
+    margin: 0 100px 50px 50px; }
+    .member .profile img {
+      height: 100%;
+      width: auto;
+      z-index: 2; }
+    .member .profile::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 90%;
+      right: -25px;
+      bottom: 0;
+      background-color: #aad139;
+      -webkit-transform: skew(-5deg);
+      -moz-transform: skew(-5deg);
+      -o-transform: skew(-5deg);
+      transform: skew(-5deg);
+      z-index: -1; }
+    .member .profile::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 90%;
+      right: -50px;
+      bottom: 25px;
+      background-color: #aad139;
+      opacity: .3;
+      -webkit-transform: skew(-5deg);
+      -moz-transform: skew(-5deg);
+      -o-transform: skew(-5deg);
+      transform: skew(-5deg);
+      z-index: -1; }
+    .member .profile img {
+      width: 100%; }
   .member .item {
     width: 100%;
     height: 100%;
-    float: left;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     cursor: pointer; }
     .member .item .profile {
-      float: left;
       width: 50%;
-      position: relative;
-      z-index: 2;
-      position: relative; }
+      margin: 0; }
       .member .item .profile::before {
-        content: "";
-        position: absolute;
         width: 80%;
-        height: 90%;
-        right: 10px;
-        bottom: 0;
-        background-color: #aad139;
-        -webkit-transform: skew(-5deg);
-        -moz-transform: skew(-5deg);
-        -o-transform: skew(-5deg);
-        transform: skew(-5deg);
-        z-index: -1; }
-      .member .item .profile::after {
-        content: "";
-        position: absolute;
+        right: 10px; }
+      .member .item .profile:after {
         width: 80%;
-        height: 90%;
         right: 0;
-        bottom: 10px;
-        background-color: #aad139;
-        opacity: .3;
-        -webkit-transform: skew(-5deg);
-        -moz-transform: skew(-5deg);
-        -o-transform: skew(-5deg);
-        transform: skew(-5deg);
-        z-index: -1; }
-      .member .item .profile img {
-        width: 100%; }
+        bottom: 10px; }
     .member .item .meta {
       float: left;
       width: 50%;
@@ -860,6 +874,119 @@
             top: 0; }
     .member .item:hover .meta .wrapper .btn-to {
       opacity: 1; }
+  .member .bio {
+    width: 100%;
+    margin-bottom: 100px; }
+    .member .bio .bio-group {
+      width: 100%;
+      margin-bottom: 25px; }
+      .member .bio .bio-group label {
+        width: 100%;
+        color: #aad139;
+        font-family: 'Exo-Italic';
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1px; }
+      .member .bio .bio-group .name {
+        color: #FFFFFF;
+        font-family: 'Exo-ExtraBoldItalic';
+        font-size: 30px; }
+      .member .bio .bio-group .game {
+        color: #FFFFFF;
+        font-family: 'Exo-ExtraBoldItalic';
+        font-size: 26px; }
+      .member .bio .bio-group .about {
+        color: #FFFFFF;
+        font-family: 'Exo-Italic';
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 1px; }
+      .member .bio .bio-group .social {
+        font-size: 30px; }
+  .member .owl-carousel {
+    margin: 0 auto;
+    width: 390px;
+    position: relative; }
+    .member .owl-carousel .owl-stage-outer {
+      width: calc(100% - 120px);
+      margin-left: 60px; }
+      .member .owl-carousel .owl-stage-outer .itm {
+        cursor: pointer;
+        padding: 0;
+        width: 115px;
+        height: 200px;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        position: relative; }
+        .member .owl-carousel .owl-stage-outer .itm img {
+          height: 100%;
+          width: auto;
+          position: absolute;
+          z-index: 2;
+          bottom: 0; }
+        .member .owl-carousel .owl-stage-outer .itm:hover {
+          -webkit-filter: none;
+          -moz-filter: none;
+          -o-filter: none;
+          filter: none; }
+        .member .owl-carousel .owl-stage-outer .itm::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 90%;
+          right: 0px;
+          bottom: 0px;
+          background-color: #aad139;
+          -webkit-transform: skew(-5deg);
+          -moz-transform: skew(-5deg);
+          -o-transform: skew(-5deg);
+          transform: skew(-5deg);
+          z-index: -1; }
+        .member .owl-carousel .owl-stage-outer .itm::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 90%;
+          right: -10px;
+          bottom: 10px;
+          background-color: #aad139;
+          opacity: .3;
+          -webkit-transform: skew(-5deg);
+          -moz-transform: skew(-5deg);
+          -o-transform: skew(-5deg);
+          transform: skew(-5deg);
+          z-index: -1; }
+    .member .owl-carousel .owl-nav {
+      width: 100%;
+      height: 100%;
+      top: calc(50% - 25px);
+      position: absolute;
+      z-index: -1; }
+      .member .owl-carousel .owl-nav .owl-prev,
+      .member .owl-carousel .owl-nav .owl-next {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: solid 1px #aad139;
+        color: #aad139;
+        font-size: 26px;
+        line-height: 50px;
+        text-align: center;
+        display: inline-bl;
+        position: absolute; }
+        .member .owl-carousel .owl-nav .owl-prev:hover,
+        .member .owl-carousel .owl-nav .owl-next:hover {
+          background-color: #aad139;
+          color: #090909; }
+      .member .owl-carousel .owl-nav .owl-prev {
+        left: 0; }
+      .member .owl-carousel .owl-nav .owl-next {
+        right: 0; }
+    @media (min-width: 768px) {
+      .member .owl-carousel {
+        width: 795px; } }
 
 body {
   background-color: #111111;

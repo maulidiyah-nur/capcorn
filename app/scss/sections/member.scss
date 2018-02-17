@@ -1,53 +1,74 @@
 .member{
     margin-bottom: 100px;
 
+    .profile{
+        float: left;
+        width: calc(100% - 150px);
+        position: relative;
+        z-index: 2;
+        position: relative;
+        margin: 0 100px 50px 50px;
+
+        img{
+            height: 100%;
+            width: auto;
+            z-index: 2;
+        }
+        
+        &::before{
+            content:"";
+            position: absolute;
+            width: 100%;
+            height: 90%;
+            right: -25px;
+            bottom: 0;
+            background-color: $main-green;
+            -webkit-transform: skew(-5deg);
+            -moz-transform: skew(-5deg);
+            -o-transform: skew(-5deg);
+            transform: skew(-5deg);
+            z-index: -1;                
+        }
+        
+        &::after{
+            content:"";
+            position: absolute;
+            width: 100%;
+            height: 90%;
+            right: -50px;
+            bottom: 25px;
+            background-color: $main-green;
+            opacity: .3;
+            -webkit-transform: skew(-5deg);
+            -moz-transform: skew(-5deg);
+            -o-transform: skew(-5deg);
+            transform: skew(-5deg);
+            z-index: -1;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
     .item{
         width: 100%;
         height: 100%;
-        float: left;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         cursor: pointer;
 
         .profile{
-            float: left;
             width: 50%;
-            position: relative;
-            z-index: 2;
-            position: relative;
-            
+            margin: 0;
+
             &::before{
-                content:"";
-                position: absolute;
                 width: 80%;
-                height: 90%;
                 right: 10px;
-                bottom: 0;
-                background-color: $main-green;
-                -webkit-transform: skew(-5deg);
-                -moz-transform: skew(-5deg);
-                -o-transform: skew(-5deg);
-                transform: skew(-5deg);
-                z-index: -1;                
             }
-            
-            &::after{
-                content:"";
-                position: absolute;
+            &:after{
                 width: 80%;
-                height: 90%;
                 right: 0;
                 bottom: 10px;
-                background-color: $main-green;
-                opacity: .3;
-                -webkit-transform: skew(-5deg);
-                -moz-transform: skew(-5deg);
-                -o-transform: skew(-5deg);
-                transform: skew(-5deg);
-                z-index: -1;
-            }
-
-            img{
-                width: 100%;
             }
         }
         .meta{
@@ -122,4 +143,155 @@
             }
         }
     }
+
+    .bio{
+        width: 100%;
+        margin-bottom: 100px;
+
+        .bio-group{
+            width: 100%;
+            margin-bottom: 25px;
+
+            label{
+                width: 100%;
+                color: $main-green;
+                font-family: 'Exo-Italic';
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 1px;
+            }
+
+            .name{
+                color: $white;
+                font-family: 'Exo-ExtraBoldItalic';
+                font-size: 30px;
+            }
+
+            .game{
+                color: $white;
+                font-family: 'Exo-ExtraBoldItalic';
+                font-size: 26px;
+            }
+
+            .about{
+                color: $white;
+                font-family: 'Exo-Italic';
+                font-size: 14px;
+                line-height: 26px;
+                letter-spacing: 1px;
+            }
+
+            .social{
+                font-size: 30px;
+            }
+        }
+    }
+    
+    .owl-carousel {
+        margin: 0 auto;
+        width: 390px;
+        position: relative;
+
+        .owl-stage-outer{
+            width: calc(100% - 120px);
+            margin-left: 60px;
+
+            .itm {
+                cursor: pointer;
+                padding: 0;
+                width: 115px; 
+                height: 200px;
+                -webkit-filter: grayscale(100%); 
+                -moz-filter: grayscale(100%); 
+                -o-filter: grayscale(100%); 
+                filter: grayscale(100%);
+                position: relative;
+
+                img{
+                    height: 100%;
+                    width: auto;
+                    position: absolute;
+                    z-index: 2;
+                    bottom: 0;
+                }
+
+                &:hover{
+                    -webkit-filter: none; 
+                    -moz-filter: none; 
+                    -o-filter: none; 
+                    filter: none;
+                }       
+                
+                &::before{
+                    content:"";
+                    position: absolute;
+                    width: 100%;
+                    height: 90%;
+                    right: 0px;
+                    bottom: 0px;
+                    background-color: $main-green;
+                    -webkit-transform: skew(-5deg);
+                    -moz-transform: skew(-5deg);
+                    -o-transform: skew(-5deg);
+                    transform: skew(-5deg);
+                    z-index: -1;                
+                }
+                
+                &::after{
+                    content:"";
+                    position: absolute;
+                    width: 100%;
+                    height: 90%;
+                    right: -10px;
+                    bottom: 10px;
+                    background-color: $main-green;
+                    opacity: .3;
+                    -webkit-transform: skew(-5deg);
+                    -moz-transform: skew(-5deg);
+                    -o-transform: skew(-5deg);
+                    transform: skew(-5deg);
+                    z-index: -1;
+                }
+            }
+        }
+        
+
+        .owl-nav{
+            width: 100%;
+            height: 100%;
+            top: calc(50% - 25px);
+            position: absolute;
+            z-index: -1;
+
+            .owl-prev,
+            .owl-next{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: solid 1px $main-green;
+                color: $main-green;
+                font-size: 26px;
+                line-height: 50px;
+                text-align: center;
+                display: inline-bl;
+                position: absolute;
+
+                &:hover{
+                    background-color: $main-green;
+                    color: #090909;
+                }
+            }
+            .owl-prev{
+                left: 0;
+            }
+            .owl-next{                
+                right: 0;
+            }
+        }
+
+        @media (min-width: 768px){
+            width: 795px;
+        }
+    }
+    
 }

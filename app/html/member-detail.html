@@ -1,0 +1,116 @@
+<section class="member">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="profile">
+                    <img src="images/feauted-player.png" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-8">
+                <div class="bio">
+                    <div class="bio-group">
+                        <label>NAME</label>
+                        <span class="name">John Dohherty</span>
+                    </div>
+                    <div class="bio-group">
+                        <label>PLAYER NAME</label>
+                        <span class="game">ext_John Doe</span>
+                    </div>
+                    <div class="bio-group">
+                        <label>GAME</label>
+                        <span class="game">COUNTER STRIKE : GLOBAL OFFENSIVE</span>
+                    </div>
+                    <div class="bio-group">
+                        <label>ABOUT</label>
+                        <span class="about">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod.
+                        </span>
+                    </div>
+                    <div class="bio-group">
+                        <label>FOLLOW</label>
+                        <a href="#" class="social">
+                            <i class="ion ion-social-twitter"></i>
+                        </a>
+                        <a href="#" class="social">
+                            <i class="ion ion-social-twitch"></i>
+                        </a>
+                        <a href="#" class="social">
+                            <i class="ion ion-steam"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="owl-carousel">
+                    <a href="#" class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member-2.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member-2.png" class="img-fluid"/>
+                    </a>
+                    <a href="#" class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member-2.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member-2.png" class="img-fluid"/>
+                    </a>
+                    <a href="#" class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member-2.png" class="img-fluid"/>
+                    </a>
+                    <a class="itm">
+                        <img src="images/member.png" class="img-fluid"/>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            margin: 20,
+            loop: true,
+            autoWidth: true,
+            nav: true,
+            navText:[
+                '<i class="ion ion-ios-arrow-left"></i>',
+                '<i class="ion ion-ios-arrow-right"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 2
+                },
+                768: {
+                    items: 5,
+                    margin: 20
+                }
+            }
+        })
+    })
+</script>
