@@ -4,6 +4,9 @@
 
 /* sections */
 @import "./sections/header.scss";
+@import "./sections/footer.scss";
+
+/* home */
 @import "./sections/stage.scss";
 @import "./sections/upcoming.scss";
 @import "./sections/news.scss";
@@ -11,7 +14,10 @@
 @import "./sections/team.scss";
 @import "./sections/merch.scss";
 @import "./sections/sponsor.scss";
-@import "./sections/footer.scss";
+
+/* member */
+@import "./sections/member.scss";
+
 
 body{
     background-color: $bg-color;
@@ -29,6 +35,7 @@ body{
 .content-wrapper{
     width: 100%;
     min-height: 100vh;
+    padding-top: 120px;
 }
 
 a{
@@ -41,6 +48,7 @@ a{
 
     &:hover{
         text-decoration: none;
+        color: $main-green;
     }
 }
 
@@ -55,11 +63,11 @@ a{
         content: "";
         position: absolute;
         width: 3px;
-        height: 100%;
+        height: 40px;
         background-color: $main-green;
         transform: rotate(30deg);
-        top: -8px;
-        left: 10px;
+        top: 0px;
+        left: 5px;
     }
 
     &::after{
@@ -68,18 +76,21 @@ a{
         width: 30px;
         height: 100%;
         top: 0px;
-        left: -11px;
+        left: -13px;
         border-top: solid 35px $bg-color;
         border-right: solid 20px transparent;
     }
 
     @media (min-width: 768px) {
-        font-size: 60px;
-
+        font-size: 50px;
+        &::before{
+            height: 60px;
+            left: 10px;
+        }
         &::after{
             width: 50px;
             top: 0px;
-            left: -19px;
+            left: -22px;
             border-top: solid 80px $bg-color;
             border-right: solid 46px transparent;
         }

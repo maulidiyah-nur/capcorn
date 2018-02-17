@@ -7,7 +7,7 @@ $(document).ready(function(){
      * content loader
      * for FE dev purpose only 
     */
-    $('[data-load]').click(function(){
+    $(document).on('click', '[data-load]', function(){
         var htmlSource = $(this).data('load');
         loadContent(htmlSource);
     });

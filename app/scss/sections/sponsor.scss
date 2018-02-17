@@ -105,13 +105,14 @@
         }
 
         .form-control{
+            font-family: "Exo-Italic";
             background-color: #1a1a1a;
             border: solid 1px transparent;
             border-radius: 0;
+            color: $main-green;
 
             &:focus{
                 box-shadow: none;
-                border: solid 1px $main-green;
                 outline: none;
             }
         }
