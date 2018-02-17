@@ -1,0 +1,117 @@
+.header{
+    padding: 20px 0;
+    z-index: 2;
+    position: relative;
+
+    .logo,
+    .menu,
+    .add,
+    .menu-res{
+        display: inline-block;  
+    }
+
+    .logo{
+        float: left;
+        img{
+            width: 100px;
+        }
+    }
+
+    .menu{
+        font-family: 'Exo-BoldItalic';
+        font-size: 20px;
+        margin: 20px 0;
+        float: left;
+        max-width: calc(100% - 270px);
+
+        a{
+            color: $white;
+            padding: 0 20px;
+            float: left;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+        @media (max-width: 575px) {
+            display: none;
+        }
+    }
+
+    .add{
+        font-family: 'Exo-Light';
+        font-size: 18px;
+        margin: 20px 0;  
+        float: right;      
+
+        a{
+            color: $white;
+            padding: 0;
+
+            &::before{
+                content: "";
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: red;
+                margin-right: 5px;
+            }
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+        @media (max-width: 575px) {
+            width: calc(100% - 175px); 
+            text-align: center;           
+        }
+    }
+
+    .menu-res{
+        display: none;
+
+        @media (max-width: 575px) {
+            display: inline-block;
+            float: right;
+            margin: 20px;
+
+            &::before{
+                content: "\f394";
+                font-family: "Ionicons";
+                font-size: 40px;
+                color: $main-green;
+                cursor: pointer;
+                line-height: 20px;
+            }
+            
+            &.open{
+                &::before{
+                    content: "\f2d7";
+                }
+            }
+        }
+    }
+
+    .dropdown-res-menu{
+        display: none;
+
+        &.open{
+            display: inline-block;
+            min-height: calc(100vh - 140px);
+            border-bottom: solid 5px $main-green;
+
+            a{
+                color: $white;
+                font-family: 'Exo-BoldItalic';
+                font-size: 30px;
+                line-height: 60px;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}

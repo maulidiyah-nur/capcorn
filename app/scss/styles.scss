@@ -1,0 +1,114 @@
+@import "./font.scss";
+@import "./vars.scss";
+@import "./button.scss";
+
+/* sections */
+@import "./sections/header.scss";
+@import "./sections/stage.scss";
+@import "./sections/upcoming.scss";
+@import "./sections/news.scss";
+@import "./sections/game.scss";
+@import "./sections/team.scss";
+@import "./sections/merch.scss";
+@import "./sections/sponsor.scss";
+@import "./sections/footer.scss";
+
+body{
+    background-color: $bg-color;
+    overflow-x: hidden; 
+
+    &.home{
+        background-image: url("../images/bg-smoke.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    }
+}
+
+a{
+    color: $white;
+    font-family: 'Exo-Bold';
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.section-title{
+    color: $yellow;
+    font-family: 'Exo-ExtraBoldItalic';
+    font-size: 30px;
+    position: relative;
+    margin-left: 20px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background-color: $main-green;
+        transform: rotate(30deg);
+        top: -8px;
+        left: 10px;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 100%;
+        top: 0px;
+        left: -11px;
+        border-top: solid 35px $bg-color;
+        border-right: solid 20px transparent;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 60px;
+
+        &::after{
+            width: 50px;
+            top: 0px;
+            left: -19px;
+            border-top: solid 80px $bg-color;
+            border-right: solid 46px transparent;
+        }
+    }
+}
+
+.featured-title{
+    background-color: $main-green;
+    display: inline-block;
+    font-family: 'Exo-BoldItalic';
+    font-size: 24px;
+    padding: 5px 20px;
+    position: relative;
+
+    &::after{
+        content: "";
+        border-top: 46px solid $main-green;
+        border-right: 25px solid transparent;
+        height: 46px;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        right: -34px;
+    }
+
+    &.full{
+        width: calc(100% - 35px);
+    }
+
+    @media (min-width: 1200px){
+        font-size: 30px;
+
+        &::after{
+            border-top: 55px solid $main-green;
+            height: 55px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.btn-outer-green{
+    cursor: pointer;
+    color: $white;
+    font-family: 'Exo-Bold';
+    font-size: 18px;
+    border: solid 2px $main-green;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 20px;
+
+    &:hover{
+        background-color: $main-green;
+        text-decoration: none;
+    }
+
+    &.text-green{
+        padding: 5px 20px;
+        color: $main-green;
+        margin-top: 20px;
+
+        &:hover{
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.game{
+    .container{
+        border-top: solid 1px $main-green;
+        border-bottom: solid 1px $main-green;
+
+        .item{
+            display: table;
+            height: 100%;
+            width: 100%;
+            padding: 50px 20px;
+            text-align: center;
+            .wrapper{
+                display: table-cell;
+                vertical-align: middle;                
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+$slider-active: $yellow;
+$slider: rgba(0, 0, 0, .6);
+
+.stage{
+    background-image: url('../images/banner-smoke-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    position: relative;
+
+    .item{
+        .wrapper{
+            display: table;
+            height: 100%;
+
+            .content{
+                display: table-cell;
+                vertical-align: middle;               
+            }
+        }
+        .title{
+            font-family: 'Exo-ExtraBoldItalic';
+            font-size: 60px;
+            color: $white;
+        }
+    }
+
+    .owl-stage-outer{
+        width: 100%;
+    }
+    
+    .owl-dots{
+        position: absolute;
+        bottom: 50px;
+        width: 50%;
+        left: 25%;
+        text-align: center;
+
+        .owl-dot{
+            height: 5px;
+            width: 50px;
+            background-color: $slider;
+            display: inline-block;
+            margin-right: 10px;
+
+            &.active{
+                background-color: $slider-active;
+            }
+        }
+    }
+}

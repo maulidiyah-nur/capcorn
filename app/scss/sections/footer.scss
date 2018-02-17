@@ -1,0 +1,140 @@
+.footer{
+    background-image: url('../images/banner-smoke-bg.png');
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    overflow: hidden;
+    max-height: 500px;
+    position: relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        height: 57px;
+        width: 7px;
+        bottom: -9px;
+        left: 10px;
+        z-index: 2;
+        background-color: $main-green;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        height: 7px;
+        width: calc(100% - 30px);
+        bottom: 35px;
+        right: 0;
+        z-index: 2;
+        background-color: $main-green;
+    }
+
+    .tagline{
+        color: $main-green;
+        font-family: 'Exo-ExtraBoldItalic';
+        font-size: 42px;
+        line-height: 52px;        
+
+        @media (min-width: 768px){
+            font-size: 72px;
+            line-height: 72px;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 1200px){
+        max-height: 750px;
+
+        &::before{
+            height: 353px;
+            bottom: -53px;
+            left: 117px;
+        }
+    
+        &::after{
+            width: calc(100% - 242px);
+            bottom: 244px;
+            
+        }
+    }
+}
+
+.footer-b{
+    padding: 0 40px 40px 40px;
+    position: relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        border-bottom: solid 40px #090909;
+        border-left: solid 40px transparent;
+        top: -35px;
+        left: 0;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        height: 40px;
+        width: calc(100% - 40px);
+        top: -35px;
+        right: 0;
+        z-index: 2;
+        background-color: #090909;
+    }
+
+    @media (min-width: 1200px){
+        padding: 50px 100px 50px 0;
+        margin-left: 250px;
+        position: absolute;
+        background-color: #090909;
+        bottom: 0px;
+        z-index: 2;
+
+        &::before{
+            border-bottom: solid 250px #090909;
+            border-left: solid 250px transparent;
+            top: 0px;
+            left: -250px;
+            width: 250px;
+            height: 250px;
+        }
+        &::after{
+            display: none;
+        }
+    }
+
+    .social{
+        color: $white;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 3px;
+        font-family: 'Exo-Bold';
+        margin-bottom: 50px;
+
+        a{
+            font-size: 26px;
+            text-align: center;
+        }
+    }
+
+    .igs{
+        color: $white;
+        font-family: 'Exo-Regular';
+        font-size: 8px;
+        line-height: 18px;
+        margin-top: 50px;
+        text-align: center;
+
+        @media (min-width: 992px){
+            margin-top: 0;
+        }
+    }
+}
