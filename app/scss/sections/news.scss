@@ -4,6 +4,7 @@
     .featured{
         margin-bottom: 100px;
         position: relative;
+        z-index: 1;
 
         .meta{
             margin: 50px 0;
@@ -29,6 +30,7 @@
             }
             a{
                 padding: 20px 0;
+                color: $white;
             }
         }
         img{
@@ -82,6 +84,7 @@
         position: relative;
         cursor: pointer;
         margin-bottom: 20px;
+        padding: 0;
         border-bottom: 3px solid $main-green;
 
         &:hover{
@@ -132,3 +135,257 @@
         }
     }
 }
+
+.news-detail{
+    background-color: $bg-color;
+    margin-top: -170px;
+    position: relative;
+
+    .news-image{
+        height: 700px;
+        width: 100%;
+
+        &:before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 700px;
+            background-image: linear-gradient($bg-color, transparent, $bg-color);
+            z-index: 1;
+        }
+
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .container{
+        position: relative;
+        z-index: 2;
+        background-color: $white;
+        margin-top: -50px;
+        padding: 50px 20px;//75px;
+
+        font-family: 'Exo-Regular';
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1;
+        word-wrap: break-word;
+
+        .breadcrumb{
+            background-color: transparent;
+            padding: 0;
+            font-size: 12px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .meta-date{
+            color: $main-green;
+            margin-bottom: 1rem;
+            font-family: 'Exo-ExtraBoldItalic';
+            font-size: 14px
+        }
+
+        .title{
+            font-family: 'Exo-ExtraBoldItalic';
+            font-size: 30px;
+            line-height: 36px;
+            color: $bg-color;
+            margin: 1rem 0 2rem 0;
+        }
+        
+        h2, h3, h4, h5{
+            font-family: 'Exo-ExtraBoldItalic';
+            margin: 3rem 0;
+        }
+        h2{ font-size: 32px; }
+        h3{ font-size: 30px; }
+        h4{ font-size: 22px; }
+        h5{ font-size: 20px; }
+
+        ul{
+            li{
+                font-size: 18px;
+                line-height: 29px;
+            }
+        }
+        p{
+            img{
+                float: left;
+                margin-bottom: 2rem;                
+
+                @media (max-width: 991px){
+                    width: 100%;
+                }
+
+                @media (min-width: 992px){
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        .blockquote{
+            color: $main-green;
+            font-family: 'Exo-ExtraBoldItalic';
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;
+        }
+
+        .caption{
+            margin: 20px 0;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .share{
+            margin-bottom: 50px;
+            margin-top: 20px;
+
+            button{
+                background-color: transparent;
+                color: $bg-color;
+                border: none;
+                font-family: 'Exo-Bold';
+                font-size: 9px;
+                line-height: 13px;
+                padding: 6px 20px;
+                margin-right: 5px;
+                position: relative;
+                
+                &:before{
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background-color: $main-green;
+                    -webkit-transform: skew(-30deg);
+                    -moz-transform: skew(-30deg);
+                    -o-transform: skew(-30deg);
+                    transform: skew(-30deg);
+                }
+
+                @mixin share-combination ($color){
+                    color: $white;
+                    &::before{
+                        background-color: $color;
+                    }
+                }
+
+                &.facebook{
+                    @include share-combination(#3b5998);
+                }
+                &.twitter{
+                    @include share-combination(#00aced);
+                }
+                &.reddit{
+                    @include share-combination(#ff4500);
+                }
+
+                @media (min-width: 992px){
+                    font-size: 17px;
+                    padding: 10px 25px;
+                }
+            }
+        }
+
+        .dd-outer{
+            width: 100%;
+            max-width: 100%;
+            min-width: unset;
+        }
+
+        .schedule{
+            width: 100%;
+            padding: 20px;
+            border: solid 1px $bg-color;
+            margin: 30px 0;
+
+            .section-title{
+                color: $bg-color;
+                padding: 30px 0 30px 20px;
+                border-bottom: solid 1px $main-green;
+                margin-left: 0;
+                margin-bottom: 30px;
+
+                &:before{
+                    left: 25px;
+                    top: 20px;
+                }
+                &:after{
+                    top: 20px;
+                    left: 6px;
+                    border-top-color: $white;
+                }
+
+                @media (min-width: 992px){
+                    font-size: 38px;
+                    &:before{
+                        top: 10px;
+                    }
+                    &:after{
+                        top: 10px;
+                        left: -8px;
+                    }
+                }
+            }
+
+            .item{
+                padding: 20px 0;
+                border-bottom: solid 1px $main-green;
+
+                .title{
+                    font-size: 16px;
+                    margin: 0;
+                }
+
+                &.last{
+                    border-bottom: none;
+                }
+            }
+        }
+
+        .update{
+            .update-title{
+                font-family: 'Exo-Bold';
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                display: inline-block;
+            }
+            .item{
+                margin-bottom: 20px;
+                .meta-date{
+                    font-family: 'Exo-Regular';
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $bg-color;
+                }
+                .meta-title{
+                    font-family: 'Exo-Bold';
+                    font-size: 18px;
+                    line-height: 32px;
+                    padding: 0;
+
+                    &:hover{
+                        color: $main-green;
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 992px){
+            padding: 50px;
+        }
+    }
+}
+
