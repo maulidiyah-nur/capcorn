@@ -76,13 +76,18 @@ gulp.task('fonts', function() {
     .pipe(gulp.dest('docs/fonts'))
 })
 
+gulp.task('html', function() {
+    return gulp.src('app/html/**/*')
+    .pipe(gulp.dest('docs/html'))
+})
+
 gulp.task('clean:docs', function() {
     return del.sync('docs');
 })
 
 gulp.task('build', function (callback) {
     runSequence('clean:docs', 
-      ['sass', 'js', 'css', 'useref', 'images', 'fonts'],
+      ['sass', 'js', 'css', 'html', 'useref', 'images', 'fonts'],
       callback
     )
 })
