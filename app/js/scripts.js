@@ -21,6 +21,9 @@ $(document).ready(function(){
             }
             $('.menu-item').removeClass("active");
             $("[data-load='"+source+"']").addClass("active");
+            $('html, body').animate({
+                scrollTop: 0
+            }, 0);
         });
     }
 
