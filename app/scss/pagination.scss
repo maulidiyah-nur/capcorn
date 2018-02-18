@@ -1,0 +1,22 @@
+.pagination{
+    display: inline-flex;
+
+    .page-item{
+        margin-right: 10px;
+
+        .page-link{
+            border: solid 1px $main-green;
+            background-color: transparent;
+            color: $white;
+            border-radius: 0;
+            font-family: 'Exo-Regular';
+            box-shadow: none !important;
+
+            &:hover{
+                background-color: $main-green;
+                font-family: 'Exo-BoldItalic';
+                color: $bg-color;
+            }
+        }
+    }
+}

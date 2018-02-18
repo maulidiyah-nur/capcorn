@@ -3,6 +3,7 @@
     background-position: center 100px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: $bg-color;
     padding-top: 100px;
     overflow: hidden;
     max-height: 500px;
@@ -71,7 +72,7 @@
     &::before{
         content: "";
         position: absolute;
-        border-bottom: solid 40px #090909;
+        border-bottom: solid 40px $bg-color;
         border-left: solid 40px transparent;
         top: -35px;
         left: 0;
@@ -87,19 +88,19 @@
         top: -35px;
         right: 0;
         z-index: 2;
-        background-color: #090909;
+        background-color: $bg-color;
     }
 
     @media (min-width: 1200px){
         padding: 50px 100px 50px 0;
         margin-left: 250px;
         position: absolute;
-        background-color: #090909;
+        background-color: $bg-color;
         bottom: 0px;
         z-index: 2;
 
         &::before{
-            border-bottom: solid 250px #090909;
+            border-bottom: solid 250px $bg-color;
             border-left: solid 250px transparent;
             top: 0px;
             left: -250px;

@@ -76,6 +76,8 @@
             width: 50%;
             height: 100%;
             display: table;
+            position: relative;
+            z-index: 1;
 
             .wrapper{
                 display: table-cell;

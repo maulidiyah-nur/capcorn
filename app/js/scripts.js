@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $('.menu-res, .dropdown-res-menu').click(function(){
-        $('.menu-res, .dropdown-res-menu').toggleClass('open');
+    $('.menu-res').click(function(){
+        $('.menu-res, .dropdown-res-menu, .header').toggleClass('open');
     });
 
     /*
@@ -10,6 +10,7 @@ $(document).ready(function(){
     $(document).on('click', '[data-load]', function(){
         var htmlSource = $(this).data('load');
         loadContent(htmlSource);
+        $('.menu-res, .dropdown-res-menu, .header').removeClass('open');
     });
 
     function loadContent(source){

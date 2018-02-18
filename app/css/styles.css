@@ -187,11 +187,100 @@
     .btn-outer-green.text-green:hover {
       color: #FFFFFF; }
 
+.dd-outer {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%; }
+  .dd-outer .dropdown-toggle {
+    border-radius: 0;
+    background-color: transparent !important;
+    border: solid 1px #aad139 !important;
+    color: #aad139 !important;
+    font-family: 'Exo-Bold';
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    box-shadow: none !important; }
+    .dd-outer .dropdown-toggle:after {
+      position: absolute;
+      right: 20px;
+      margin-top: 7.5px; }
+  .dd-outer .dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    background-color: #111111;
+    border: solid 1px #aad139; }
+    .dd-outer .dropdown-menu .dropdown-item {
+      color: #aad139;
+      font-family: 'Exo-Bold';
+      font-size: 14px;
+      text-align: left;
+      padding: 10px;
+      position: relative; }
+      .dd-outer .dropdown-menu .dropdown-item:hover {
+        background-color: transparent;
+        color: #aad139; }
+        .dd-outer .dropdown-menu .dropdown-item:hover:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #aad139;
+          opacity: .2; }
+  @media (min-width: 768px) {
+    .dd-outer {
+      width: auto;
+      min-width: 300px;
+      margin-right: 20px;
+      position: relative;
+      z-index: 1; } }
+
+.sb-outer {
+  width: 100%;
+  background-color: transparent;
+  color: #aad139;
+  font-family: 'Exo-Bold';
+  font-size: 14px;
+  border: solid 1px #aad139;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: none;
+  outline: none; }
+  @media (min-width: 768px) {
+    .sb-outer {
+      width: auto;
+      min-width: 300px;
+      margin-right: 20px;
+      position: relative;
+      z-index: 1; } }
+
+.pagination {
+  display: inline-flex; }
+  .pagination .page-item {
+    margin-right: 10px; }
+    .pagination .page-item .page-link {
+      border: solid 1px #aad139;
+      background-color: transparent;
+      color: #FFFFFF;
+      border-radius: 0;
+      font-family: 'Exo-Regular';
+      box-shadow: none !important; }
+      .pagination .page-item .page-link:hover {
+        background-color: #aad139;
+        font-family: 'Exo-BoldItalic';
+        color: #111111; }
+
 /* sections */
 .header {
   padding: 20px 0;
-  z-index: 2;
-  position: relative; }
+  z-index: 10;
+  position: absolute;
+  width: 100%; }
+  .header.open {
+    background-color: #111111; }
   .header .logo,
   .header .menu,
   .header .add,
@@ -275,6 +364,7 @@
   background-position: center 100px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #111111;
   padding-top: 100px;
   overflow: hidden;
   max-height: 500px;
@@ -328,7 +418,7 @@
   .footer-b::before {
     content: "";
     position: absolute;
-    border-bottom: solid 40px #090909;
+    border-bottom: solid 40px #111111;
     border-left: solid 40px transparent;
     top: -35px;
     left: 0;
@@ -343,17 +433,17 @@
     top: -35px;
     right: 0;
     z-index: 2;
-    background-color: #090909; }
+    background-color: #111111; }
   @media (min-width: 1200px) {
     .footer-b {
       padding: 50px 100px 50px 0;
       margin-left: 250px;
       position: absolute;
-      background-color: #090909;
+      background-color: #111111;
       bottom: 0px;
       z-index: 2; }
       .footer-b::before {
-        border-bottom: solid 250px #090909;
+        border-bottom: solid 250px #111111;
         border-left: solid 250px transparent;
         top: 0px;
         left: -250px;
@@ -388,7 +478,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -120px;
+  margin-top: -170px;
+  padding-top: 170px;
   position: relative; }
   .stage .item .wrapper {
     display: table;
@@ -486,10 +577,10 @@
         content: "";
         position: absolute;
         height: 11px;
-        width: 300px;
+        width: 700px;
         background-color: #111111;
         top: -9px;
-        left: -300px;
+        left: -700px;
         z-index: 2; } }
 
 .news {
@@ -547,20 +638,24 @@
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    margin-bottom: 20px; }
-    .news .item:hover::before {
-      content: "";
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #aad139;
-      opacity: .54; }
-    .news .item:hover .meta {
-      color: #aad139; }
+    margin-bottom: 20px;
+    border-bottom: 3px solid #aad139; }
+    .news .item:hover {
+      border-bottom: 3px solid transparent; }
+      .news .item:hover::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #aad139;
+        opacity: .54; }
+      .news .item:hover .meta {
+        color: #aad139; }
     .news .item img {
       height: 100%;
+      width: 100%;
       object-fit: cover; }
     .news .item .meta {
       position: absolute;
@@ -575,7 +670,10 @@
       .news .item .meta .date {
         font-size: 16px; }
       .news .item .meta .title {
-        font-size: 20px; }
+        font-size: 19px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; }
 
 .game .container {
   border-top: solid 1px #aad139;
@@ -828,7 +926,9 @@
       float: left;
       width: 50%;
       height: 100%;
-      display: table; }
+      display: table;
+      position: relative;
+      z-index: 1; }
       .member .item .meta .wrapper {
         display: table-cell;
         vertical-align: middle; }
@@ -990,18 +1090,33 @@
 
 body {
   background-color: #111111;
-  overflow-x: hidden;
-  position: relative; }
-  body.home {
+  overflow-x: hidden; }
+  body:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
     background-image: url("../images/bg-smoke.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain; }
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
 
 .content-wrapper {
   width: 100%;
   min-height: 100vh;
-  padding-top: 120px; }
+  padding-top: 170px;
+  position: relative; }
+
+section {
+  position: relative; }
 
 a {
   cursor: pointer;
