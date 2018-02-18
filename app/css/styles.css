@@ -905,7 +905,7 @@
         font-size: 30px; }
   .member .owl-carousel {
     margin: 0 auto;
-    width: 390px;
+    width: 330px;
     position: relative; }
     .member .owl-carousel .owl-stage-outer {
       width: calc(100% - 120px);
@@ -913,8 +913,8 @@
       .member .owl-carousel .owl-stage-outer .itm {
         cursor: pointer;
         padding: 0;
-        width: 115px;
-        height: 200px;
+        width: 100px;
+        height: 174px;
         -webkit-filter: grayscale(100%);
         -moz-filter: grayscale(100%);
         -o-filter: grayscale(100%);
@@ -983,10 +983,10 @@
       .member .owl-carousel .owl-nav .owl-prev {
         left: 0; }
       .member .owl-carousel .owl-nav .owl-next {
-        right: 0; }
+        right: 0px; }
     @media (min-width: 768px) {
       .member .owl-carousel {
-        width: 795px; } }
+        width: 700px; } }
 
 body {
   background-color: #111111;
