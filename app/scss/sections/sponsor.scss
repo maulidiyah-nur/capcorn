@@ -91,34 +91,100 @@
     }
 }
 
-.sponsorship-contact{
-    form{
-        background-color: #252525;
-        padding: 20px;
-        padding-top: 40px;
-        width: 100%;
-        margin-top: -20px;        
+.partner{
+    position: relative;
+    z-index: 1;
 
-        label{
-            color: #808080;
+    .item{
+        background-color: $white;
+        margin-bottom: 30px;
+        height: 277px;
+        font-family: 'Exo-Regular';
+        font-size: 20px;
+
+        .logo{
+            text-align: center;
+            width: 100%;
+            height: calc(100% - 70px);
+            padding: 50px;
+
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .title{
+            text-align: center;
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+            cursor: pointer;
+            border-top: solid 1px $bg-color;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            padding: 0 20px;
+            font-size: 20px;
+            font-family: 'Exo-Regular';
+
+            &:hover{
+                background-color: $main-green;
+                font-family: 'Exo-Bold';
+                color: $white;
+            }
+        }
+    }  
+    
+    .join{
+        position: relative;
+        margin: 0 20px;
+        padding: 25px;
+
+        &:before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: black;
+            -webkit-transform: skew(-5deg);
+            -moz-transform: skew(-5deg);
+            -o-transform: skew(-5deg);
+            transform: skew(-5deg);
+            -moz-box-shadow: inset 0 0 50px $main-green;
+            -o-box-shadow: inset 0 0 50px $main-green;
+            -webkit-box-shadow: inset 0 0 50px $main-green;
+            box-shadow: inset 0 0 50px $main-green;
+        }
+
+        img{
+            margin-top: -75px;
+        }
+
+        .title{
+            font-family: 'Exo-ExtraBoldItalic';
+            font-size: 27px;
+            color: $main-green;
+            margin: 20px 0;
+        }
+        .desc{
+            color: $white;
+            font-size: 16px;
+            line-height: 26px;
             font-family: 'Exo-Regular';
         }
 
-        .form-control{
-            font-family: "Exo-Italic";
-            background-color: #1a1a1a;
-            border: solid 1px transparent;
-            border-radius: 0;
-            color: $main-green;
-
-            &:focus{
-                box-shadow: none;
-                outline: none;
+        @media (min-width: 992px){
+            .title{
+                font-size: 50px;
+                margin: 0;
             }
-        }
-
-        @media (min-width: 768px){
-            margin-left: 10px;
+            .desc{
+                font-size: 18px;
+                line-height: 28px;
+            }
         }
     }
 }

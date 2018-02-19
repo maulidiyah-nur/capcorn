@@ -20,6 +20,9 @@
 /* member & member detail */
 @import "./sections/member.scss";
 
+/* contact */
+@import "./sections/contact.scss";
+
 body{
     background-color: $bg-color;
     overflow-x: hidden;     

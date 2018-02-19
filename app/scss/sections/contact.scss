@@ -1,0 +1,57 @@
+
+.contact{
+    position: relative;
+    z-index: 1;
+
+    font-family: 'Exo-Regular';
+    font-size: 18px;
+    color: $white;
+
+    @media (mmin-width: 768px){
+        font-size: 20px;
+    }
+
+    .desc{
+        font-size: 16px;
+        line-height: 16px;
+        display: inline-block;
+        margin: 25px 0;
+    }
+
+    .ion{
+        font-size: 24px;
+        color: $main-green;
+    }
+
+    form{
+        background-color: #252525;
+        padding: 20px;
+        padding-top: 40px;
+        width: 100%;
+        margin-top: -20px;        
+
+        label{
+            color: #808080;
+            font-family: 'Exo-Regular';
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .form-control{
+            font-family: "Exo-Italic";
+            background-color: #1a1a1a;
+            border: solid 1px transparent;
+            border-radius: 0;
+            color: $main-green;
+
+            &:focus{
+                box-shadow: none;
+                outline: none;
+            }
+        }
+
+        @media (min-width: 768px){
+            margin-left: 10px;
+        }
+    }
+}
