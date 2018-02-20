@@ -508,7 +508,7 @@
     text-align: center; }
     .stage .owl-dots .owl-dot {
       height: 5px;
-      width: 50px;
+      width: 40px;
       background-color: rgba(0, 0, 0, 0.6);
       display: inline-block;
       margin-right: 10px; }
@@ -841,7 +841,7 @@
               top: 10px; }
             .news-detail .container .schedule .section-title:after {
               top: 10px;
-              left: -8px; } }
+              left: -5px; } }
       .news-detail .container .schedule .item {
         padding: 20px 0;
         border-bottom: solid 1px #aad139; }
@@ -1099,28 +1099,6 @@
 
 .team {
   margin: 100px 0; }
-  .team .video {
-    position: relative;
-    height: 100%;
-    width: 100%; }
-    .team .video:after {
-      content: "\f362";
-      font-family: 'Ionicons';
-      font-size: 80px;
-      color: #aad139;
-      top: calc(50% - 40px);
-      left: calc(50% - 40px);
-      position: absolute;
-      z-index: 2; }
-    .team .video img {
-      object-fit: cover;
-      height: 100%;
-      width: 100%; }
-    @media (min-width: 758px) {
-      .team .video:after {
-        font-size: 150px;
-        top: calc(50% - 75px);
-        left: calc(50% - 75px); } }
   .team .featured {
     float: left;
     width: 100%;
@@ -1592,6 +1570,124 @@
       .contact form {
         margin-left: 10px; } }
 
+/* about */
+.about {
+  margin-bottom: 100px;
+  position: relative;
+  z-index: 1;
+  font-family: 'Exo-Regular';
+  font-size: 18px;
+  color: #FFFFFF; }
+  .about .section-title {
+    margin-bottom: 50px; }
+  .about .follow {
+    margin-top: 100px; }
+    .about .follow .title {
+      color: #f9e80d;
+      font-family: 'Exo-BoldItalic';
+      font-size: 24px;
+      margin-bottom: 25px; }
+    .about .follow .ion,
+    .about .follow .icon {
+      font-size: 30px;
+      color: #aad139; }
+      .about .follow .ion:hover,
+      .about .follow .icon:hover {
+        color: #f9e80d; }
+  .about .milestone {
+    padding: 50px 0;
+    border-bottom: solid 1px #aad139;
+    text-align: center;
+    color: #aad139;
+    font-family: 'Exo-ExtraBoldItalic'; }
+    .about .milestone .title {
+      font-size: 80px;
+      margin-bottom: 25px; }
+    .about .milestone .subtitle {
+      font-size: 17px; }
+    @media (min-width: 992px) {
+      .about .milestone {
+        height: 100%;
+        width: 25%;
+        float: left;
+        border-bottom: none;
+        border-right: solid 1px #aad139;
+        padding: 0 20px; }
+        .about .milestone:last-child {
+          border: none; } }
+  .about .achievement {
+    width: calc(100% - 120px);
+    margin-left: 60px; }
+    .about .achievement .achievement-image {
+      width: 100%; }
+      .about .achievement .achievement-image img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%; }
+    .about .achievement .meta {
+      width: 100%; }
+      .about .achievement .meta .achievement-logo {
+        width: 100px;
+        height: 100px;
+        margin: 25px 0; }
+        .about .achievement .meta .achievement-logo img {
+          object-fit: contain;
+          width: 100%;
+          height: 100%; }
+      .about .achievement .meta .achievement-date {
+        font-family: 'Exo-Bold';
+        font-size: 16px;
+        color: #f9e80d; }
+      .about .achievement .meta .achievement-name {
+        font-family: 'Exo-Italic';
+        font-size: 18px;
+        color: #aad139;
+        opacity: .3; }
+      .about .achievement .meta .achievement-rank {
+        font-family: 'Exo-ExtraBoldItalic';
+        font-size: 38px;
+        color: #aad139; }
+    @media (min-width: 768px) {
+      .about .achievement .achievement-image {
+        width: 49%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle; }
+        .about .achievement .achievement-image img {
+          width: 100%;
+          height: 100%; }
+      .about .achievement .meta {
+        width: 49%;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 20px; }
+        .about .achievement .meta .achievement-logo {
+          margin: 0 0 25px 0; } }
+  .about .owl-carousel {
+    position: relative; }
+    .about .owl-carousel .owl-nav {
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      top: calc(50% - 25px);
+      left: 0; }
+      .about .owl-carousel .owl-nav .owl-next,
+      .about .owl-carousel .owl-nav .owl-prev {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #aad139;
+        border: solid 1px #aad139;
+        border-radius: 50%;
+        float: left; }
+        .about .owl-carousel .owl-nav .owl-next:hover,
+        .about .owl-carousel .owl-nav .owl-prev:hover {
+          background-color: #aad139;
+          color: #111111; }
+      .about .owl-carousel .owl-nav .owl-next {
+        float: right; }
+
 body {
   background-color: #111111;
   overflow-x: hidden; }
@@ -1643,10 +1739,10 @@ a {
     content: "";
     position: absolute;
     width: 3px;
-    height: 40px;
+    height: 50px;
     background-color: #aad139;
     transform: rotate(30deg);
-    top: 0px;
+    top: -5px;
     left: 5px; }
   .section-title::after {
     content: "";
@@ -1654,21 +1750,24 @@ a {
     width: 30px;
     height: 100%;
     top: 0px;
-    left: -13px;
+    left: -14px;
     border-top: solid 35px #111111;
     border-right: solid 20px transparent; }
   @media (min-width: 768px) {
     .section-title {
       font-size: 50px; }
       .section-title::before {
-        height: 60px;
-        left: 10px; }
+        height: 70px;
+        left: 10px;
+        top: -5px; }
       .section-title::after {
         width: 50px;
         top: 0px;
         left: -22px;
         border-top: solid 80px #111111;
         border-right: solid 46px transparent; } }
+  .section-title.bt {
+    border-top: solid 2px #aad139; }
 
 .featured-title {
   background-color: #aad139;
@@ -1694,3 +1793,26 @@ a {
       .featured-title::after {
         border-top: 55px solid #aad139;
         height: 55px; } }
+
+.video {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+  .video:after {
+    content: "\f362";
+    font-family: 'Ionicons';
+    font-size: 80px;
+    color: #aad139;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    position: absolute;
+    z-index: 2; }
+  .video img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
+  @media (min-width: 758px) {
+    .video:after {
+      font-size: 150px;
+      top: calc(50% - 75px);
+      left: calc(50% - 75px); } }

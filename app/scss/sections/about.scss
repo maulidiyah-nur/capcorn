@@ -1,0 +1,168 @@
+.about{
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Exo-Regular';
+    font-size: 18px;
+    color: $white;
+
+    .section-title{
+        margin-bottom: 50px;
+    }
+
+    .follow{
+        margin-top: 100px;
+    
+        .title{
+            color: $yellow;
+            font-family: 'Exo-BoldItalic';
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        .ion,
+        .icon{
+            font-size: 30px;
+            color: $main-green;
+
+            &:hover{
+                color: $yellow;
+            }
+        }
+    }
+
+    .milestone{
+        padding: 50px 0;
+        border-bottom: solid 1px $main-green;
+        text-align: center;
+        color: $main-green;
+        font-family: 'Exo-ExtraBoldItalic';
+
+        .title{
+            font-size: 80px;
+            margin-bottom: 25px;
+        }
+        .subtitle{
+            font-size: 17px;
+        }
+
+        @media (min-width: 992px){
+            height: 100%;
+            width: 25%;
+            float: left;
+            border-bottom: none;
+            border-right: solid 1px $main-green;
+            padding: 0 20px;
+
+            &:last-child{
+                border: none;
+            }
+        }
+    }
+
+    .achievement{
+        width: calc(100% - 120px);
+        margin-left: 60px;
+
+        .achievement-image{
+            width: 100%;
+
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .meta{
+            width: 100%;
+
+            .achievement-logo{
+                width: 100px;
+                height: 100px;
+                margin: 25px 0;
+                
+                img{
+                    object-fit: contain;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .achievement-date{
+                font-family: 'Exo-Bold';
+                font-size: 16px;
+                color: $yellow;
+            }
+
+            .achievement-name{
+                font-family: 'Exo-Italic';
+                font-size: 18px;
+                color: $main-green;
+                opacity: .3;
+            }
+
+            .achievement-rank{
+                font-family: 'Exo-ExtraBoldItalic';
+                font-size: 38px;
+                color: $main-green;
+            }
+        }
+
+        @media (min-width: 768px){
+            .achievement-image{
+                width: 49%;
+                height: 100%;
+                display: inline-block;
+                vertical-align: middle;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .meta{
+                width: 49%;
+                display: inline-block;
+                vertical-align: middle;
+                padding: 0 20px;
+
+                .achievement-logo{
+                    margin: 0 0 25px 0;
+                }
+            }
+        }
+    }
+
+    .owl-carousel{
+        position: relative;
+
+        .owl-nav{
+            position: absolute;
+            width: 100%;
+            height: 50px;
+            top: calc(50% - 25px);
+            left: 0;
+
+            .owl-next,
+            .owl-prev{
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                color: $main-green;
+                border: solid 1px $main-green;
+                border-radius: 50%;
+                float: left;
+
+                &:hover{
+                    background-color: $main-green;
+                    color: $bg-color;
+                }
+            }
+
+            .owl-next{ float: right; }
+        }
+    }   
+
+}
