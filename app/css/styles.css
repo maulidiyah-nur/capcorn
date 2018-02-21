@@ -175,6 +175,7 @@
   outline: none;
   box-shadow: none;
   background-color: transparent;
+  display: inline-block;
   padding: 20px; }
   .btn-outer-green:hover {
     background-color: #aad139;
@@ -394,7 +395,7 @@
     width: 7px;
     bottom: -9px;
     left: 14px;
-    z-index: 2;
+    z-index: 3;
     background-color: #aad139;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -407,7 +408,7 @@
     width: calc(100% - 35px);
     bottom: 35px;
     right: 0;
-    z-index: 2;
+    z-index: 3;
     background-color: #aad139; }
   .footer .tagline {
     color: #aad139;
@@ -459,7 +460,8 @@
       position: absolute;
       background-color: #111111;
       bottom: 0px;
-      z-index: 2; }
+      z-index: 2;
+      max-height: 250px; }
       .footer-b::before {
         border-bottom: solid 250px #111111;
         border-left: solid 250px transparent;

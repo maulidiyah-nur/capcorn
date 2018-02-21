@@ -16,7 +16,7 @@
         width: 7px;
         bottom: -9px;
         left: 14px;
-        z-index: 2;
+        z-index: 3;
         background-color: $main-green;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
@@ -31,7 +31,7 @@
         width: calc(100% - 35px);
         bottom: 35px;
         right: 0;
-        z-index: 2;
+        z-index: 3;
         background-color: $main-green;
     }
 
@@ -66,7 +66,7 @@
 
 .footer-b{
     padding: 0 40px 40px 40px;
-    position: relative;
+    position: relative;    
 
     &::before{
         content: "";
@@ -97,6 +97,7 @@
         background-color: $bg-color;
         bottom: 0px;
         z-index: 2;
+        max-height: 250px;
 
         &::before{
             border-bottom: solid 250px $bg-color;
