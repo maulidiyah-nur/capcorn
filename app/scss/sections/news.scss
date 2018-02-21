@@ -10,10 +10,13 @@
             margin: 50px 0;
 
             .title{
+              a {
                 font-family: 'Exo-Bold';
                 font-size: 42px;
                 line-height: 52px;
                 color: $main-green;
+              }
+
             }
             .date{
                 font-family: 'Exo-Bold';
@@ -28,9 +31,12 @@
                     line-height: 12px;
                 }
             }
-            a{
+            span {
                 padding: 20px 0;
                 color: $white;
+                font-family: 'Exo-Bold';
+                font-size: 18px;
+                display: inline-block;
             }
         }
         img{
@@ -44,7 +50,7 @@
             .featured-title{
                 position: absolute;
             }
-            
+
             .meta,
             img{
                 width: 50%;
@@ -105,7 +111,7 @@
                 color: $main-green;
             }
         }
-        
+
         img{
             height: 100%;
             width: 100%;
@@ -133,6 +139,11 @@
                 white-space: nowrap;
             }
         }
+    }
+    .more-news {
+      a {
+        display: inline-block;
+      }
     }
 }
 
@@ -203,7 +214,7 @@
             color: $bg-color;
             margin: 1rem 0 2rem 0;
         }
-        
+
         h2, h3, h4, h5{
             font-family: 'Exo-ExtraBoldItalic';
             margin: 3rem 0;
@@ -222,7 +233,7 @@
         p{
             img{
                 float: left;
-                margin-bottom: 2rem;                
+                margin-bottom: 2rem;
 
                 @media (max-width: 991px){
                     width: 100%;
@@ -262,7 +273,7 @@
                 padding: 6px 20px;
                 margin-right: 5px;
                 position: relative;
-                
+
                 &:before{
                     content: "";
                     position: absolute;
@@ -525,7 +536,7 @@
                             opacity: 0;
                         }
                     }
-                }                
+                }
             }
             @media (max-width: 991px){
                 .choose_slider_items{
@@ -571,7 +582,7 @@
             margin-bottom: 50px;
             position: relative;
             width: 100%;
-            
+
             .item{
                 width: 100%;
                 padding: 10px 0;
@@ -597,7 +608,7 @@
                     .subtitle,
                     .title{
                         display: inline-block;
-                        
+
                         text-align: center;
                         font-family: 'Exo-ExtraBoldItalic';
                         margin: 0;
@@ -668,7 +679,7 @@
 
                     &.middle{
                         width: 18%;
-                        border:none;   
+                        border:none;
                         .meta{
                             width: 100%;
 
@@ -697,4 +708,3 @@
         }
     }
 }
-
