@@ -92,6 +92,7 @@
         margin-bottom: 20px;
         padding: 0;
         border-bottom: 3px solid $main-green;
+        display: inline-block;
 
         &:hover{
             border-bottom: 3px solid transparent;
@@ -338,11 +339,11 @@
                 }
                 &:after{
                     top: 20px;
-                    left: 6px;
+                    left: 9px;
                     border-top-color: $white;
                 }
 
-                @media (min-width: 992px){
+                @media (min-width: 768px){
                     font-size: 38px;
                     &:before{
                         top: 10px;

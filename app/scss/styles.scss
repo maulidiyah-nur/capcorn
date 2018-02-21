@@ -61,6 +61,7 @@ section{
     position: relative;
 }
 
+<<<<<<< HEAD
 a{
     cursor: pointer;
     color: $white;
@@ -72,6 +73,8 @@ a{
     }
 }
 
+=======
+>>>>>>> 277c8c853020234fc0e9cd98610fed80abedc2a4
 .section-title{
     color: $yellow;
     font-family: 'Exo-ExtraBoldItalic';
@@ -129,6 +132,7 @@ a{
     font-size: 24px;
     padding: 5px 20px;
     position: relative;
+    color: $bg-color;
 
     &::after{
         content: "";

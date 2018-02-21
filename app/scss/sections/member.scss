@@ -110,7 +110,12 @@
                     margin-left: -20px;
                     position: relative;
                     opacity: 0;
+<<<<<<< HEAD
 
+=======
+                    display: inline-block;
+    
+>>>>>>> 277c8c853020234fc0e9cd98610fed80abedc2a4
                     &:before{
                         height: 35px;
                         width: 20px;
@@ -209,6 +214,7 @@
                 -o-filter: grayscale(100%);
                 filter: grayscale(100%);
                 position: relative;
+                display: inline-block;
 
                 img{
                     height: 100%;

@@ -42,16 +42,16 @@ gulp.task('js', function() {
         'node_modules/jquery/docs/jquery.min.js',
         'node_modules/bootstrap/docs/js/bootstrap.min.js',
         'node_modules/popper.js/dist/umd/popper.min.js',
-        'node_modules/wow.js/docs/wow.min.js',
-        'node_modules/owl.carousel/docs/owl.carousel.min.js'
+        'node_modules/owl.carousel/docs/owl.carousel.min.js',
+        'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js'
     ])
     .pipe(gulp.dest('app/js'))
 })
 
 gulp.task('css', function() {
     return gulp.src([
-        'node_modules/wow.js/css/libs/animate.css',
-        'node_modules/owl.carousel/docs/assets/owl.carousel.min.css'
+        'node_modules/owl.carousel/docs/assets/owl.carousel.min.css',
+        'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css'
     ])
     .pipe(gulp.dest('app/css'))
 })
