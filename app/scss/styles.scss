@@ -61,20 +61,6 @@ section{
     position: relative;
 }
 
-a{
-    cursor: pointer;
-    color: $white;
-    font-family: 'Exo-Bold';
-    font-size: 18px;
-    padding: 10px 20px;
-    display: inline-block;
-
-    &:hover{
-        text-decoration: none;
-        color: $main-green;
-    }
-}
-
 .section-title{
     color: $yellow;
     font-family: 'Exo-ExtraBoldItalic';
@@ -132,6 +118,7 @@ a{
     font-size: 24px;
     padding: 5px 20px;
     position: relative;
+    color: $bg-color;
 
     &::after{
         content: "";

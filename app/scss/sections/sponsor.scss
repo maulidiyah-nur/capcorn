@@ -8,7 +8,7 @@
         padding-bottom: 20px;
 
         .list-sponsor{
-            overflow-x: auto;
+            overflow-x: hidden; //auto;
             white-space: nowrap;
 
             .item{

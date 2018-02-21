@@ -25,3 +25,17 @@
         }
     }
 }
+
+.btn-link{
+    cursor: pointer;
+    color: $white;
+    font-family: 'Exo-Bold';
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+
+    &:hover{
+        text-decoration: none;
+        color: $main-green;
+    }
+}
