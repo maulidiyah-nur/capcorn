@@ -1422,6 +1422,7 @@
           margin-top: 50px;
           margin-left: -20px;
           position: relative;
+          display: inline-block;
           opacity: 0; }
           .member .item .meta .wrapper .btn-to:before {
             height: 35px;
@@ -1746,7 +1747,8 @@ body {
   position: relative; }
 
 section {
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 .section-title {
   color: #f9e80d;
