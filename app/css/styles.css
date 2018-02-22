@@ -1192,7 +1192,7 @@
     padding-top: 5px;
     padding-bottom: 20px; }
     .sponsor .container .list-sponsor {
-      overflow-x: hidden;
+      overflow-x: auto;
       white-space: nowrap; }
       .sponsor .container .list-sponsor .item {
         width: calc(50% + 50px);
@@ -1214,7 +1214,7 @@
             background-color: #111111; }
           .sponsor .container .list-sponsor::-webkit-scrollbar-thumb {
             border-radius: 10px;
-            background-color: #373737; } }
+            background-color: #111111; } }
 
 .hof {
   margin-bottom: 100px; }
