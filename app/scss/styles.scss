@@ -59,8 +59,10 @@ body{
 
 section{
     position: relative;
+    z-index: 1;
 }
 
+<<<<<<< HEAD
 a{
     cursor: pointer;
     color: $white;
@@ -72,6 +74,8 @@ a{
     }
 }
 
+=======
+>>>>>>> 00443960cce8c69ca1186a3cac28d9afbcc1e3ff
 .section-title{
     color: $yellow;
     font-family: 'Exo-ExtraBoldItalic';

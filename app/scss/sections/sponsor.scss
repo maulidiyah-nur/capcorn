@@ -8,7 +8,7 @@
         padding-bottom: 20px;
 
         .list-sponsor{
-            overflow-x: hidden; //auto;
+            overflow-x: auto;
             white-space: nowrap;
 
             .item{
@@ -40,7 +40,7 @@
 
                 &::-webkit-scrollbar-thumb {
                     border-radius: 10px;
-                    background-color: lighten($color: $bg-color, $amount: 15);
+                    background-color: $bg-color;
                 }
             }
         }
