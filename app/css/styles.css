@@ -478,7 +478,7 @@
     letter-spacing: 3px;
     font-family: 'Exo-Bold';
     margin-bottom: 50px; }
-    .footer-b .social a {
+    .footer-b .social .link {
       font-size: 26px;
       text-align: center; }
   .footer-b .igs {
@@ -615,7 +615,7 @@
     z-index: 1; }
     .news .featured .meta {
       margin: 50px 0; }
-      .news .featured .meta .title {
+      .news .featured .meta .title a {
         font-family: 'Exo-Bold';
         font-size: 42px;
         line-height: 52px;
@@ -629,9 +629,12 @@
         .news .featured .meta .date h5 {
           font-size: 12px;
           line-height: 12px; }
-      .news .featured .meta a {
+      .news .featured .meta span {
         padding: 20px 0;
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        font-family: 'Exo-Bold';
+        font-size: 18px;
+        display: inline-block; }
     .news .featured img {
       width: 100%;
       height: auto; }
@@ -702,6 +705,8 @@
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap; }
+  .news .more-news a {
+    display: inline-block; }
 
 .news-detail {
   background-color: #111111;
@@ -1313,7 +1318,8 @@
       color: #FFFFFF;
       font-size: 16px;
       line-height: 26px;
-      font-family: 'Exo-Regular'; }
+      font-family: 'Exo-Regular';
+      margin-bottom: 30px; }
     @media (min-width: 992px) {
       .partner .join .title {
         font-size: 50px;
@@ -1401,7 +1407,8 @@
           font-size: 15px;
           letter-spacing: 1px;
           color: #aad139;
-          margin-left: 20px; }
+          margin-left: 20px;
+          margin-bottom: 30px; }
         .member .item .meta .wrapper .btn-to {
           background-color: #aad139;
           padding: 5px 20px 5px 20px;
@@ -1560,7 +1567,7 @@
       font-size: 20px; } }
   .contact .desc {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 27px;
     display: inline-block;
     margin: 25px 0; }
   .contact .ion {
@@ -1738,6 +1745,17 @@ body {
 section {
   position: relative; }
 
+<<<<<<< HEAD
+a {
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Exo-Bold'; }
+  a:hover {
+    text-decoration: none;
+    color: #aad139; }
+
+=======
+>>>>>>> 277c8c853020234fc0e9cd98610fed80abedc2a4
 .section-title {
   color: #f9e80d;
   font-family: 'Exo-ExtraBoldItalic';

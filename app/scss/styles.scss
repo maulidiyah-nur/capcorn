@@ -28,7 +28,7 @@
 
 body{
     background-color: $bg-color;
-    overflow-x: hidden;     
+    overflow-x: hidden;
 
     &:before{
         content: ' ';
@@ -61,6 +61,20 @@ section{
     position: relative;
 }
 
+<<<<<<< HEAD
+a{
+    cursor: pointer;
+    color: $white;
+    font-family: 'Exo-Bold';    
+
+    &:hover{
+        text-decoration: none;
+        color: $main-green;
+    }
+}
+
+=======
+>>>>>>> 277c8c853020234fc0e9cd98610fed80abedc2a4
 .section-title{
     color: $yellow;
     font-family: 'Exo-ExtraBoldItalic';
@@ -149,7 +163,7 @@ section{
     position: relative;
     height: 100%;
     width: 100%;
-    
+
     &:after{
         content: "\f362";
         font-family: 'Ionicons';
