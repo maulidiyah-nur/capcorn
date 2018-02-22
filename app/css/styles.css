@@ -1418,8 +1418,7 @@
           margin-top: 50px;
           margin-left: -20px;
           position: relative;
-          opacity: 0;
-          display: inline-block; }
+          opacity: 0; }
           .member .item .meta .wrapper .btn-to:before {
             height: 35px;
             width: 20px;
@@ -1745,7 +1744,6 @@ body {
 section {
   position: relative; }
 
-<<<<<<< HEAD
 a {
   cursor: pointer;
   color: #FFFFFF;
@@ -1754,8 +1752,6 @@ a {
     text-decoration: none;
     color: #aad139; }
 
-=======
->>>>>>> 277c8c853020234fc0e9cd98610fed80abedc2a4
 .section-title {
   color: #f9e80d;
   font-family: 'Exo-ExtraBoldItalic';
