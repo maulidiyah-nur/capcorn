@@ -12,7 +12,7 @@
 
     .follow{
         margin-top: 100px;
-    
+
         .title{
             color: $yellow;
             font-family: 'Exo-BoldItalic';
@@ -44,6 +44,9 @@
         }
         .subtitle{
             font-size: 17px;
+            display: inline-flex;
+            align-items: center;
+            min-height: 50px;
         }
 
         @media (min-width: 992px){
@@ -81,7 +84,7 @@
                 width: 100px;
                 height: 100px;
                 margin: 25px 0;
-                
+
                 img{
                     object-fit: contain;
                     width: 100%;
@@ -163,6 +166,6 @@
 
             .owl-next{ float: right; }
         }
-    }   
+    }
 
 }
