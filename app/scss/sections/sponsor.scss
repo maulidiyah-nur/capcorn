@@ -196,5 +196,13 @@
                 line-height: 28px;
             }
         }
+        .join-party {
+          .btn-outer-green {
+            @media (max-width: 992px){
+              margin: auto;
+              display: table;
+            }
+          }
+        }
     }
 }

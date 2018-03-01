@@ -1,6 +1,6 @@
 .merch{
     margin-bottom: 100px;
-    
+
     .featured-title{
         z-index: 2;
     }
@@ -9,7 +9,7 @@
 
         .item{
             border: solid 1px $main-green;
-    
+
             img{
                 width: 100%;
             }
@@ -24,7 +24,7 @@
                 color: rgb(0,0,0);
 
                 img{
-                    max-width: 60%;
+                    max-width: 55%;
                 }
             }
         }
@@ -33,5 +33,5 @@
             margin-left: 15px;
 
         }
-    }    
+    }
 }

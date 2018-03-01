@@ -171,7 +171,7 @@
   color: #FFFFFF;
   font-family: 'Exo-Bold';
   font-size: 18px;
-  border: solid 2px #aad139;
+  border: solid 1px #aad139;
   outline: none;
   box-shadow: none;
   background-color: transparent;
@@ -182,7 +182,7 @@
     text-decoration: none;
     color: #FFFFFF; }
   .btn-outer-green.text-green {
-    padding: 5px 20px;
+    padding: 12px 20px;
     color: #aad139;
     margin-top: 20px; }
     .btn-outer-green.text-green:hover {
@@ -289,7 +289,6 @@
       box-shadow: none !important; }
       .pagination .page-item .page-link:hover {
         background-color: #aad139;
-        font-family: 'Exo-BoldItalic';
         color: #111111; }
 
 /* sections */
@@ -417,7 +416,7 @@
     line-height: 52px; }
     @media (min-width: 768px) {
       .footer .tagline {
-        font-size: 72px;
+        font-size: 53px;
         line-height: 72px;
         text-align: center; } }
   @media (min-width: 1200px) {
@@ -478,6 +477,8 @@
     letter-spacing: 3px;
     font-family: 'Exo-Bold';
     margin-bottom: 50px; }
+    .footer-b .social .ion {
+      font-size: 25px; }
     .footer-b .social .link {
       font-size: 26px;
       text-align: center; }
@@ -491,6 +492,10 @@
     @media (min-width: 992px) {
       .footer-b .igs {
         margin-top: 0; } }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .footer-b .igs {
+        max-width: 80%;
+        margin: 50px auto 0px; } }
     .footer-b .igs img {
       object-fit: cover;
       width: 100%;
@@ -1188,7 +1193,7 @@
         font-family: 'Exo-Bold';
         color: black; }
         .merch .wrapper .item.highlight img {
-          max-width: 60%; }
+          max-width: 55%; }
     @media (min-width: 768px) {
       .merch .wrapper {
         margin-left: 15px; } }
@@ -1338,6 +1343,10 @@
       .partner .join .desc {
         font-size: 18px;
         line-height: 28px; } }
+    @media (max-width: 992px) {
+      .partner .join .join-party .btn-outer-green {
+        margin: auto;
+        display: table; } }
 
 /* member & member detail */
 .member {
@@ -1422,13 +1431,17 @@
           margin-bottom: 30px; }
         .member .item .meta .wrapper .btn-to {
           background-color: #aad139;
-          padding: 5px 20px 5px 20px;
+          padding: 12px 20px;
           font-family: 'Exo-BoldItalic';
           font-size: 16px;
           letter-spacing: 1px;
           margin-top: 50px;
           margin-left: -20px;
-          position: relative; }
+          position: relative;
+          opacity: 0;
+          transition: 0.5s; }
+          .member .item .meta .wrapper .btn-to:hover {
+            opacity: 1; }
           .member .item .meta .wrapper .btn-to:before {
             height: 35px;
             width: 20px;
@@ -1442,8 +1455,8 @@
             height: 35px;
             width: 20px;
             content: "";
-            border-top: 35px solid #aad139;
-            border-right: 20px solid transparent;
+            border-top: 45px solid #aad139;
+            border-right: 15px solid transparent;
             position: absolute;
             right: -19px;
             top: 0; }
@@ -1622,7 +1635,7 @@
       color: #f9e80d;
       font-family: 'Exo-BoldItalic';
       font-size: 24px;
-      margin-bottom: 25px; }
+      margin-bottom: 60px; }
     .about .follow .ion,
     .about .follow .icon {
       font-size: 30px;
