@@ -56,6 +56,9 @@
         font-size: 36px;
         text-align: center;
         margin-bottom: 50px;
+        @media (max-width: 550px) {
+          font-size: 30px;
+        }
     }
     .item{
         width: 100%;
@@ -89,6 +92,15 @@
         margin-bottom: 0;
         padding-right: 100px;
     }
+}
+
+.hall-fame {
+  .container {
+    @media (max-width: 550px) {
+      max-width: 80%;
+      margin: auto;
+    }
+  }
 }
 
 .partner{

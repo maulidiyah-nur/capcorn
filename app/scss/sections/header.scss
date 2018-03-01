@@ -12,7 +12,7 @@
     .menu,
     .add,
     .menu-res{
-        display: inline-block;  
+        display: inline-block;
     }
 
     .logo{
@@ -22,7 +22,7 @@
         }
     }
 
-    .menu{        
+    .menu{
         margin: 20px 0;
         float: left;
         max-width: calc(100% - 270px);
@@ -49,8 +49,11 @@
     .add{
         font-family: 'Exo-Light';
         font-size: 18px;
-        margin: 20px 0;  
-        float: right;      
+        margin: 20px 0;
+        float: right;
+        @media (max-width: 575px) {
+          font-size: 14px;
+        }
 
         a{
             color: $white;
@@ -72,8 +75,8 @@
         }
 
         @media (max-width: 575px) {
-            width: calc(100% - 175px); 
-            text-align: center;           
+            width: calc(100% - 175px);
+            text-align: center;
         }
     }
 
@@ -88,12 +91,12 @@
             &::before{
                 content: "\f394";
                 font-family: "Ionicons";
-                font-size: 40px;
+                font-size: 30px;
                 color: $main-green;
                 cursor: pointer;
                 line-height: 20px;
             }
-            
+
             &.open{
                 &::before{
                     content: "\f2d7";

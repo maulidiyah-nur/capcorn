@@ -329,6 +329,9 @@
     font-size: 18px;
     margin: 20px 0;
     float: right; }
+    @media (max-width: 575px) {
+      .header .add {
+        font-size: 14px; } }
     .header .add a {
       color: #FFFFFF;
       padding: 0; }
@@ -356,7 +359,7 @@
         .header .menu-res::before {
           content: "\f394";
           font-family: "Ionicons";
-          font-size: 40px;
+          font-size: 30px;
           color: #aad139;
           cursor: pointer;
           line-height: 20px; }
@@ -500,6 +503,12 @@
       object-fit: cover;
       width: 100%;
       height: 100%; }
+
+@media (max-width: 550px) {
+  .foot-logo img {
+    width: 200px;
+    margin: auto;
+    display: block; } }
 
 /* home */
 .stage {
@@ -724,6 +733,9 @@
   .news-detail .news-image {
     height: 700px;
     width: 100%; }
+    @media (max-width: 550px) {
+      .news-detail .news-image {
+        max-height: 300px; } }
     .news-detail .news-image:before {
       content: "";
       position: absolute;
@@ -1178,6 +1190,10 @@
   margin-bottom: 100px; }
   .merch .featured-title {
     z-index: 2; }
+    @media (max-width: 550px) {
+      .merch .featured-title {
+        margin-left: -15px;
+        margin-right: -15px; } }
   .merch .wrapper {
     margin-top: -10px; }
     .merch .wrapper .item {
@@ -1197,6 +1213,15 @@
     @media (min-width: 768px) {
       .merch .wrapper {
         margin-left: 15px; } }
+  @media (max-width: 550px) {
+    .merch .container {
+      max-width: 80%;
+      margin: auto; } }
+
+@media (max-width: 550px) {
+  .hall-fame .container {
+    max-width: 80%;
+    margin: auto; } }
 
 .sponsor {
   margin-bottom: 100px; }
@@ -1238,6 +1263,9 @@
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px; }
+    @media (max-width: 550px) {
+      .hof .hof-title {
+        font-size: 30px; } }
   .hof .item {
     width: 100%;
     text-align: center;
@@ -1260,6 +1288,11 @@
     .hof {
       margin-bottom: 0;
       padding-right: 100px; } }
+
+@media (max-width: 550px) {
+  .hall-fame .container {
+    max-width: 80%;
+    margin: auto; } }
 
 .partner {
   position: relative;
@@ -1721,7 +1754,7 @@
       position: absolute;
       width: 100%;
       height: 50px;
-      top: calc(50% - 25px);
+      top: calc(50% - 170px);
       left: 0; }
       .about .owl-carousel .owl-nav .owl-next,
       .about .owl-carousel .owl-nav .owl-prev {
@@ -1827,6 +1860,10 @@ a {
   padding: 5px 20px;
   position: relative;
   color: #111111; }
+  @media (max-width: 550px) {
+    .featured-title {
+      font-size: 18px;
+      padding: 10px 20px 9px; } }
   .featured-title::after {
     content: "";
     border-top: 46px solid #aad139;

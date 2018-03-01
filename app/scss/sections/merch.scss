@@ -3,6 +3,10 @@
 
     .featured-title{
         z-index: 2;
+        @media (max-width: 550px) {
+          margin-left: -15px;
+          margin-right: -15px;
+        }
     }
     .wrapper{
         margin-top: -10px;
@@ -34,4 +38,19 @@
 
         }
     }
+    .container {
+      @media (max-width: 550px) {
+        max-width: 80%;
+        margin: auto;
+      }
+    }
+}
+
+.hall-fame {
+  .container {
+    @media (max-width: 550px) {
+      max-width: 80%;
+      margin: auto;
+    }
+  }
 }
