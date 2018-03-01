@@ -144,7 +144,7 @@
             position: absolute;
             width: 100%;
             height: 50px;
-            top: calc(50% - 170px);
+            top: 50px;
             left: 0;
 
             .owl-next,
@@ -165,6 +165,10 @@
             }
 
             .owl-next{ float: right; }
+
+            @media(min-width: 768px){
+                top: calc(50% - 25px);
+            }
         }
     }
 
