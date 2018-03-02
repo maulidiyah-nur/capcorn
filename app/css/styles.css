@@ -1086,7 +1086,8 @@
           border-bottom: solid 1px #aad139;
           text-align: center; }
           .news-detail .container .result .item.middle .meta {
-            margin: 0; }
+            margin: 0;
+            width: 100%; }
             .news-detail .container .result .item.middle .meta .subtitle,
             .news-detail .container .result .item.middle .meta .title {
               width: auto;
