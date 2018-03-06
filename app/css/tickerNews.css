@@ -1,0 +1,38 @@
+.TickerNews {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.ti_wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ti_slide {
+    width: 30000px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.ti_content {
+    width: 8000px;
+    position: relative;
+    float: left;
+}
+
+.ti_news { 
+    float: left; 
+}
+
+.ti_news img{
+    margin: 0 10px;
+}
+
+
+@media (min-width: 1200px){
+    .TickerNews {
+        margin: 0;
+    }
+}

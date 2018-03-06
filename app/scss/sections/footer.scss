@@ -1,8 +1,8 @@
 .footer{
     background-image: url('../images/banner-smoke-bg.png');
-    background-position: center 80px;
+    background-position: left 80px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding-top: 100px;
     overflow: hidden;
     max-height: 500px;
@@ -44,12 +44,14 @@
         @media (min-width: 768px){
             font-size: 53px;
             line-height: 72px;
-            text-align: center;
+            text-align: right;
+            margin-top: 100px;
         }
     }
 
     @media (min-width: 1200px){
         max-height: 750px;
+        background-size: 90%;
 
         &::before{
             height: 353px;
@@ -95,7 +97,7 @@
         margin-left: 250px;
         position: absolute;
         background-color: $bg-color;
-        bottom: 0px;
+        bottom: -5px;
         z-index: 2;
         max-height: 250px;
 
@@ -115,7 +117,7 @@
     .social{
         color: $white;
         font-size: 18px;
-        line-height: 27px;
+        line-height: 78px;
         letter-spacing: 3px;
         font-family: 'Exo-Bold';
         margin-bottom: 50px;
@@ -144,9 +146,6 @@
           max-width: 80%;
           margin: 50px auto 0px;
         }
-
-
-
         img{
             object-fit: cover;
             width: 100%;
@@ -155,11 +154,11 @@
     }
 }
 .foot-logo {
-  img {
-    @media (max-width: 550px){
-      width: 200px;
-      margin: auto;
-      display: block;
+    img {
+        @media (max-width: 550px){
+            width: 200px;
+            margin: auto;
+            display: block;
+        }
     }
-  }
 }

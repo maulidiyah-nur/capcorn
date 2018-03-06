@@ -1,6 +1,17 @@
 $slider-active: $yellow;
 $slider: rgba(0, 0, 0, .6);
 
+@keyframes cloudLoop{
+    0% {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    
+    100% {
+        -webkit-transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,0,0);
+    }
+}
 .stage{
     background-image: url('../images/banner-smoke-bg.png');
     background-position: center center;
@@ -9,6 +20,21 @@ $slider: rgba(0, 0, 0, .6);
     margin-top: -170px;
     padding-top: 170px;
     position: relative;
+    overflow: hidden;
+
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4000px;
+        height: 100%;
+        background-image: url("../images/clouds.png");
+        background-position: 0px 100%;
+        background-repeat: repeat-x;
+        opacity: .5;
+        animation: cloudLoop 120s linear infinite;
+    }
 
     .item{
         .wrapper{
