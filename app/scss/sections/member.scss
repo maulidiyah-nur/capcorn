@@ -84,7 +84,8 @@
                 vertical-align: middle;
 
                 .title{
-                    font-family: 'Exo-BlackItalic';
+                    font-family: 'Exo-BlackItalic', 'Exo-Black';
+                    font-style: italic;
                     font-size: 20px;
                     letter-spacing: 1px;
                     color: $white;
@@ -92,7 +93,8 @@
                 }
 
                 .subtitle{
-                    font-family: 'Exo-Italic';
+                    font-family: 'Exo-Italic', 'Exo-Regular';
+                    font-style: italic;
                     font-size: 15px;
                     letter-spacing: 1px;
                     color: $main-green;
@@ -103,7 +105,8 @@
                 .btn-to{
                     background-color: $main-green;
                     padding: 12px 20px;
-                    font-family: 'Exo-BoldItalic';
+                    font-family: 'Exo-BoldItalic', 'Exo-Bold';
+                    font-style: italic;
                     font-size: 16px;
                     letter-spacing: 1px;
                     margin-top: 50px;
@@ -160,7 +163,8 @@
             label{
                 width: 100%;
                 color: $main-green;
-                font-family: 'Exo-Italic';
+                font-family: 'Exo-Italic', 'Exo-Regular';
+                font-style: italic;
                 font-size: 14px;
                 line-height: 20px;
                 letter-spacing: 1px;
@@ -168,19 +172,22 @@
 
             .name{
                 color: $white;
-                font-family: 'Exo-BlackItalic';
+                font-family: 'Exo-BlackItalic', 'Exo-Black';
+                font-style: italic;
                 font-size: 30px;
             }
 
             .game{
                 color: $white;
-                font-family: 'Exo-BlackItalic';
+                font-family: 'Exo-BlackItalic', 'Exo-Black';
+                font-style: italic;
                 font-size: 26px;
             }
 
             .about{
                 color: $white;
-                font-family: 'Exo-Italic';
+                font-family: 'Exo-Italic', 'Exo-Regular';
+                font-style: italic;
                 font-size: 14px;
                 line-height: 26px;
                 letter-spacing: 1px;

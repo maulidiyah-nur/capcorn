@@ -389,7 +389,8 @@
     float: left;
     max-width: calc(100% - 270px); }
     .header .menu a {
-      font-family: 'Exo-BoldItalic';
+      font-family: 'Exo-BoldItalic', 'Exo-Bold';
+      font-style: italic;
       font-size: 20px;
       color: #FFFFFF;
       padding: 0 20px;
@@ -450,7 +451,8 @@
       border-bottom: solid 5px #aad139; }
       .header .dropdown-res-menu.open a {
         color: #FFFFFF;
-        font-family: 'Exo-BoldItalic';
+        font-family: 'Exo-BoldItalic', 'Exo-Bold';
+        font-style: italic;
         font-size: 30px;
         line-height: 60px;
         display: inline-block;
@@ -490,7 +492,8 @@
     background-color: #aad139; }
   .footer .tagline {
     color: #aad139;
-    font-family: 'Exo-BlackItalic';
+    font-family: 'Exo-BlackItalic', 'Exo-Black';
+    font-style: italic;
     font-size: 42px;
     line-height: 52px; }
     @media (min-width: 768px) {
@@ -602,7 +605,8 @@
       display: table-cell;
       vertical-align: middle; }
   .stage .item .title {
-    font-family: 'Exo-BlackItalic';
+    font-family: 'Exo-BlackItalic', 'Exo-Black';
+    font-style: italic;
     font-size: 60px;
     color: #FFFFFF; }
   .stage .owl-stage-outer {
@@ -658,7 +662,8 @@
       padding: 50px 0; }
       .upcoming .container .item .title {
         color: #FFFFFF;
-        font-family: 'Exo-BoldItalic';
+        font-family: 'Exo-BoldItalic', 'Exo-Bold';
+        font-style: italic;
         font-size: 16px;
         line-height: 32px; }
       .upcoming .container .item p {
@@ -849,16 +854,19 @@
     .news-detail .container .meta-date {
       color: #aad139;
       margin-bottom: 1rem;
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       font-size: 14px; }
     .news-detail .container .title {
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       font-size: 30px;
       line-height: 36px;
       color: #111111;
       margin: 1rem 0 2rem 0; }
     .news-detail .container h2, .news-detail .container h3, .news-detail .container h4, .news-detail .container h5 {
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       margin: 3rem 0; }
     .news-detail .container h2 {
       font-size: 32px; }
@@ -882,7 +890,8 @@
           margin-right: 20px; } }
     .news-detail .container .blockquote {
       color: #aad139;
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       font-size: 40px;
       line-height: 55px;
       text-align: center; }
@@ -1141,7 +1150,8 @@
           .news-detail .container .result .item .meta .title {
             display: inline-block;
             text-align: center;
-            font-family: 'Exo-BlackItalic';
+            font-family: 'Exo-BlackItalic', 'Exo-Black';
+            font-style: italic;
             margin: 0; }
           .news-detail .container .result .item .meta .subtitle {
             color: #aad139;
@@ -1246,12 +1256,14 @@
         line-height: 24px; }
       .team .featured .profile .match {
         color: #FFFFFF;
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
         font-size: 86px;
         line-height: 86px;
         margin-top: 30px; }
       .team .featured .profile .match-text {
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
         font-size: 12px;
         line-height: 10px; }
       .team .featured .profile a {
@@ -1367,7 +1379,8 @@
   margin-bottom: 100px; }
   .hof .hof-title {
     color: #aad139;
-    font-family: 'Exo-BlackItalic';
+    font-family: 'Exo-BlackItalic', 'Exo-Black';
+    font-style: italic;
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px; }
@@ -1380,13 +1393,15 @@
     padding: 20px 0; }
     .hof .item .title {
       color: #FFFFFF;
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       font-size: 100px; }
       .hof .item .title.green {
         color: #aad139; }
     .hof .item .subtitle {
       color: #aad139;
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       font-size: 16px; }
   .hof .br {
     border-right: solid 1px #aad139; }
@@ -1467,7 +1482,8 @@
     .partner .join img {
       margin-top: -75px; }
     .partner .join .title {
-      font-family: 'Exo-BlackItalic';
+      font-family: 'Exo-BlackItalic', 'Exo-Black';
+      font-style: italic;
       font-size: 27px;
       color: #aad139;
       margin: 20px 0; }
@@ -1558,13 +1574,15 @@
         display: table-cell;
         vertical-align: middle; }
         .member .item .meta .wrapper .title {
-          font-family: 'Exo-BlackItalic';
+          font-family: 'Exo-BlackItalic', 'Exo-Black';
+          font-style: italic;
           font-size: 20px;
           letter-spacing: 1px;
           color: #FFFFFF;
           margin-left: 20px; }
         .member .item .meta .wrapper .subtitle {
-          font-family: 'Exo-Italic';
+          font-family: 'Exo-Italic', 'Exo-Regular';
+          font-style: italic;
           font-size: 15px;
           letter-spacing: 1px;
           color: #aad139;
@@ -1573,7 +1591,8 @@
         .member .item .meta .wrapper .btn-to {
           background-color: #aad139;
           padding: 12px 20px;
-          font-family: 'Exo-BoldItalic';
+          font-family: 'Exo-BoldItalic', 'Exo-Bold';
+          font-style: italic;
           font-size: 16px;
           letter-spacing: 1px;
           margin-top: 50px;
@@ -1612,21 +1631,25 @@
       .member .bio .bio-group label {
         width: 100%;
         color: #aad139;
-        font-family: 'Exo-Italic';
+        font-family: 'Exo-Italic', 'Exo-Regular';
+        font-style: italic;
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 1px; }
       .member .bio .bio-group .name {
         color: #FFFFFF;
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
         font-size: 30px; }
       .member .bio .bio-group .game {
         color: #FFFFFF;
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
         font-size: 26px; }
       .member .bio .bio-group .about {
         color: #FFFFFF;
-        font-family: 'Exo-Italic';
+        font-family: 'Exo-Italic', 'Exo-Regular';
+        font-style: italic;
         font-size: 14px;
         line-height: 26px;
         letter-spacing: 1px; }
@@ -1748,7 +1771,8 @@
       font-size: 14px;
       line-height: 16px; }
     .contact form .form-control {
-      font-family: "Exo-Italic";
+      font-family: "Exo-Italic", "Exo-Regular";
+      font-style: italic;
       background-color: #1a1a1a;
       border: solid 1px transparent;
       border-radius: 0;
@@ -1776,7 +1800,8 @@
     margin-top: 100px; }
     .about .follow .title {
       color: #f9e80d;
-      font-family: 'Exo-BoldItalic';
+      font-family: 'Exo-BoldItalic', 'Exo-Bold';
+      font-style: italic;
       font-size: 24px;
       margin-bottom: 60px; }
     .about .follow .ion,
@@ -1791,7 +1816,8 @@
     border-bottom: solid 1px #aad139;
     text-align: center;
     color: #aad139;
-    font-family: 'Exo-BlackItalic'; }
+    font-family: 'Exo-BlackItalic', 'Exo-Black';
+    font-style: italic; }
     .about .milestone .title {
       font-size: 80px;
       margin-bottom: 25px; }
@@ -1834,12 +1860,14 @@
         font-size: 16px;
         color: #f9e80d; }
       .about .achievement .meta .achievement-name {
-        font-family: 'Exo-Italic';
+        font-family: 'Exo-Italic', 'Exo-Regular';
+        font-style: italic;
         font-size: 18px;
         color: #aad139;
         opacity: .3; }
       .about .achievement .meta .achievement-rank {
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
         font-size: 38px;
         color: #aad139; }
     @media (min-width: 768px) {
@@ -1929,7 +1957,8 @@ a {
 .featured-title {
   background-color: #aad139;
   display: inline-block;
-  font-family: 'Exo-BoldItalic';
+  font-family: 'Exo-BoldItalic', 'Exo-Bold';
+  font-style: italic;
   font-size: 24px;
   padding: 5px 20px;
   position: relative;
@@ -1998,7 +2027,8 @@ a {
     z-index: 2; }
   .st .st-text {
     color: #f9e80d;
-    font-family: 'Exo-BlackItalic';
+    font-family: 'Exo-BlackItalic', 'Exo-Black';
+    font-style: italic;
     font-size: 30px;
     position: relative;
     -webkit-transform: skew(30deg);

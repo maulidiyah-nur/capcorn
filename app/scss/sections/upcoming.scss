@@ -41,7 +41,8 @@
             
             .title{
                 color: $white;
-                font-family: 'Exo-BoldItalic';
+                font-family: 'Exo-BoldItalic', 'Exo-Bold';
+                font-style: italic;
                 font-size: 16px;
                 line-height: 32px;
             }

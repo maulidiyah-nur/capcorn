@@ -19,7 +19,8 @@
 
         .title{
             color: $yellow;
-            font-family: 'Exo-BoldItalic';
+            font-family: 'Exo-BoldItalic', 'Exo-Bold';
+            font-style: italic;
             font-size: 24px;
             margin-bottom: 60px;
         }
@@ -40,7 +41,8 @@
         border-bottom: solid 1px $main-green;
         text-align: center;
         color: $main-green;
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
 
         .title{
             font-size: 80px;
@@ -103,14 +105,16 @@
             }
 
             .achievement-name{
-                font-family: 'Exo-Italic';
+                font-family: 'Exo-Italic', 'Exo-Regular';
+                font-style: italic;
                 font-size: 18px;
                 color: $main-green;
                 opacity: .3;
             }
 
             .achievement-rank{
-                font-family: 'Exo-BlackItalic';
+                font-family: 'Exo-BlackItalic', 'Exo-Black';
+                font-style: italic;
                 font-size: 38px;
                 color: $main-green;
             }

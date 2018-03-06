@@ -21,7 +21,8 @@ $slider: rgba(0, 0, 0, .6);
             }
         }
         .title{
-            font-family: 'Exo-BlackItalic';
+            font-family: 'Exo-BlackItalic', 'Exo-Black';
+            font-style: italic;
             font-size: 60px;
             color: $white;
         }

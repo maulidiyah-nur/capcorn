@@ -78,7 +78,8 @@ a{
 .featured-title{
     background-color: $main-green;
     display: inline-block;
-    font-family: 'Exo-BoldItalic';
+    font-family: 'Exo-BoldItalic', 'Exo-Bold';
+    font-style: italic;
     font-size: 24px;
     padding: 5px 20px;
     position: relative;
@@ -165,7 +166,8 @@ a{
 
     .st-text{
         color: $yellow;
-        font-family: 'Exo-BlackItalic';
+        font-family: 'Exo-BlackItalic', 'Exo-Black';
+        font-style: italic;
         font-size: 30px;
         position: relative;
         -webkit-transform: skew(30deg);

@@ -32,7 +32,8 @@
         max-width: calc(100% - 270px);
 
         a{
-            font-family: 'Exo-BoldItalic';
+            font-family: 'Exo-BoldItalic', 'Exo-Bold';
+            font-style: italic;
             font-size: 20px;
             color: $white;
             padding: 0 20px;
@@ -120,7 +121,8 @@
 
             a{
                 color: $white;
-                font-family: 'Exo-BoldItalic';
+                font-family: 'Exo-BoldItalic', 'Exo-Bold';
+                font-style: italic;
                 font-size: 30px;
                 line-height: 60px;
                 display: inline-block;

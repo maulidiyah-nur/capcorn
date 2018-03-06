@@ -212,12 +212,14 @@
         .meta-date{
             color: $main-green;
             margin-bottom: 1rem;
-            font-family: 'Exo-BlackItalic';
+            font-family: 'Exo-BlackItalic', 'Exo-Black';
+            font-style: italic;
             font-size: 14px
         }
 
         .title{
-            font-family: 'Exo-BlackItalic';
+            font-family: 'Exo-BlackItalic', 'Exo-Black';
+            font-style: italic;
             font-size: 30px;
             line-height: 36px;
             color: $bg-color;
@@ -225,7 +227,8 @@
         }
 
         h2, h3, h4, h5{
-            font-family: 'Exo-BlackItalic';
+            font-family: 'Exo-BlackItalic', 'Exo-Black';
+            font-style: italic;
             margin: 3rem 0;
         }
         h2{ font-size: 32px; }
@@ -256,7 +259,8 @@
 
         .blockquote{
             color: $main-green;
-            font-family: 'Exo-BlackItalic';
+            font-family: 'Exo-BlackItalic', 'Exo-Black';
+            font-style: italic;
             font-size: 40px;
             line-height: 55px;
             text-align: center;
@@ -619,7 +623,8 @@
                         display: inline-block;
 
                         text-align: center;
-                        font-family: 'Exo-BlackItalic';
+                        font-family: 'Exo-BlackItalic', 'Exo-Black';
+                        font-style: italic;
                         margin: 0;
                     }
 
