@@ -6,8 +6,12 @@
     font-size: 18px;
     color: $white;
 
-    .section-title{
+    .st{
         margin-bottom: 50px;
+    }
+
+    .bt{
+        border-top: solid 3px $main-green;
     }
 
     .follow{

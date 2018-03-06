@@ -74,55 +74,6 @@ a{
     }
 }
 
-.section-title{
-    color: $yellow;
-    font-family: 'Exo-ExtraBoldItalic';
-    font-size: 30px;
-    position: relative;
-    margin-left: 20px;
-
-    &::before{
-        content: "";
-        position: absolute;
-        width: 3px;
-        height: 50px;
-        background-color: $main-green;
-        transform: rotate(30deg);
-        top: -5px;
-        left: 5px;
-    }
-
-    &::after{
-        content: "";
-        position: absolute;
-        width: 30px;
-        height: 100%;
-        top: 0px;
-        left: -14px;
-        border-top: solid 35px $bg-color;
-        border-right: solid 20px transparent;
-    }
-
-    @media (min-width: 768px) {
-        font-size: 50px;
-        &::before{
-            height: 70px;
-            left: 10px;
-            top: -5px;
-        }
-        &::after{
-            width: 50px;
-            top: 0px;
-            left: -22px;
-            border-top: solid 80px $bg-color;
-            border-right: solid 46px transparent;
-        }
-    }
-
-    &.bt{
-        border-top: solid 2px $main-green;
-    }
-}
 
 .featured-title{
     background-color: $main-green;
@@ -188,6 +139,55 @@ a{
             font-size: 150px;
             top: calc(50% - 75px);
             left: calc(50% - 75px);
+        }
+    }
+}
+
+.st{
+    border-left: solid 3px transparent;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+    overflow: hidden;
+    position: relative;
+
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 4px;
+        height: 40px;
+        background-color: $main-green;
+        z-index: 2;
+    }
+
+    .st-text{
+        color: $yellow;
+        font-family: 'Exo-ExtraBoldItalic';
+        font-size: 30px;
+        position: relative;
+        -webkit-transform: skew(30deg);
+        -moz-transform: skew(30deg);
+        -o-transform: skew(30deg);
+        transform: skew(30deg);
+        
+        &.ti{
+            text-indent: 5px;
+        }
+    }
+
+    @media (min-width: 768px){
+        margin-left: 20px;
+
+        &:before{
+            height: 70px;
+        }
+        .st-text{
+            font-size: 50px;
+            margin-left: -10px;
+            text-indent: 0px;
         }
     }
 }

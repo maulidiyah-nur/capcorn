@@ -3,7 +3,7 @@
   font-family: 'Exo-Italic';
   font-style: italic;
   font-weight: 400;
-  src: local("Exo Italic"), local("Exo-Italic"), url(https://fonts.gstatic.com/s/exo/v6/4UaMrEtFpBISdk6u0Dfe5g.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaMrEtFpBISdk6u0Dfe5g.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -11,7 +11,7 @@
   font-family: 'Exo-Italic';
   font-style: italic;
   font-weight: 400;
-  src: local("Exo Italic"), local("Exo-Italic"), url(https://fonts.gstatic.com/s/exo/v6/4UaMrEtFpBISdk6v0Dfe5g.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaMrEtFpBISdk6v0Dfe5g.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -19,7 +19,7 @@
   font-family: 'Exo-Italic';
   font-style: italic;
   font-weight: 400;
-  src: local("Exo Italic"), local("Exo-Italic"), url(https://fonts.gstatic.com/s/exo/v6/4UaMrEtFpBISdk6h0Dc.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaMrEtFpBISdk6h0Dc.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* vietnamese */
@@ -27,7 +27,7 @@
   font-family: 'Exo-BoldItalic';
   font-style: italic;
   font-weight: 700;
-  src: local("Exo Bold Italic"), local("Exo-BoldItalic"), url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYa9SLux6jx4w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYa9SLux6jx4w.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -35,7 +35,7 @@
   font-family: 'Exo-BoldItalic';
   font-style: italic;
   font-weight: 700;
-  src: local("Exo Bold Italic"), local("Exo-BoldItalic"), url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYa9SLvx6jx4w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYa9SLvx6jx4w.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -43,7 +43,7 @@
   font-family: 'Exo-BoldItalic';
   font-style: italic;
   font-weight: 700;
-  src: local("Exo Bold Italic"), local("Exo-BoldItalic"), url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYa9SLhx6g.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYa9SLhx6g.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* vietnamese */
@@ -51,7 +51,7 @@
   font-family: 'Exo-ExtraBoldItalic';
   font-style: italic;
   font-weight: 800;
-  src: local("Exo ExtraBold Italic"), local("Exo-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYG9iLux6jx4w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYG9iLux6jx4w.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -59,7 +59,7 @@
   font-family: 'Exo-ExtraBoldItalic';
   font-style: italic;
   font-weight: 800;
-  src: local("Exo ExtraBold Italic"), local("Exo-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYG9iLvx6jx4w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYG9iLvx6jx4w.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -67,7 +67,7 @@
   font-family: 'Exo-ExtraBoldItalic';
   font-style: italic;
   font-weight: 800;
-  src: local("Exo ExtraBold Italic"), local("Exo-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYG9iLhx6g.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaBrEtFpBISdkYG9iLhx6g.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* vietnamese */
@@ -75,7 +75,7 @@
   font-family: 'Exo-Light';
   font-style: normal;
   font-weight: 300;
-  src: local("Exo Light"), local("Exo-Light"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa2Fy2-BLj36w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa2Fy2-BLj36w.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -83,7 +83,7 @@
   font-family: 'Exo-Light';
   font-style: normal;
   font-weight: 300;
-  src: local("Exo Light"), local("Exo-Light"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa2Fy2-RLj36w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa2Fy2-RLj36w.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -91,7 +91,7 @@
   font-family: 'Exo-Light';
   font-style: normal;
   font-weight: 300;
-  src: local("Exo Light"), local("Exo-Light"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa2Fy29xLj.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa2Fy29xLj.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* vietnamese */
@@ -99,7 +99,7 @@
   font-family: 'Exo-Regular';
   font-style: normal;
   font-weight: 400;
-  src: local("Exo Regular"), local("Exo-Regular"), url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISfH6jyDM.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISfH6jyDM.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -107,7 +107,7 @@
   font-family: 'Exo-Regular';
   font-style: normal;
   font-weight: 400;
-  src: local("Exo Regular"), local("Exo-Regular"), url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISfX6jyDM.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISfX6jyDM.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -115,7 +115,7 @@
   font-family: 'Exo-Regular';
   font-style: normal;
   font-weight: 400;
-  src: local("Exo Regular"), local("Exo-Regular"), url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISc36j.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaOrEtFpBISc36j.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* vietnamese */
@@ -123,7 +123,7 @@
   font-family: 'Exo-Bold';
   font-style: normal;
   font-weight: 700;
-  src: local("Exo Bold"), local("Exo-Bold"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIayFu2-BLj36w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIayFu2-BLj36w.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -131,7 +131,7 @@
   font-family: 'Exo-Bold';
   font-style: normal;
   font-weight: 700;
-  src: local("Exo Bold"), local("Exo-Bold"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIayFu2-RLj36w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIayFu2-RLj36w.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -139,7 +139,7 @@
   font-family: 'Exo-Bold';
   font-style: normal;
   font-weight: 700;
-  src: local("Exo Bold"), local("Exo-Bold"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIayFu29xLj.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIayFu29xLj.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* vietnamese */
@@ -147,7 +147,7 @@
   font-family: 'Exo-ExtraBold';
   font-style: normal;
   font-weight: 800;
-  src: local("Exo ExtraBold"), local("Exo-ExtraBold"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa1Fi2-BLj36w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa1Fi2-BLj36w.woff2) format("woff2");
   unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB; }
 
 /* latin-ext */
@@ -155,7 +155,7 @@
   font-family: 'Exo-ExtraBold';
   font-style: normal;
   font-weight: 800;
-  src: local("Exo ExtraBold"), local("Exo-ExtraBold"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa1Fi2-RLj36w.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa1Fi2-RLj36w.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -163,7 +163,7 @@
   font-family: 'Exo-ExtraBold';
   font-style: normal;
   font-weight: 800;
-  src: local("Exo ExtraBold"), local("Exo-ExtraBold"), url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa1Fi29xLj.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/exo/v6/4UaDrEtFpBIa1Fi29xLj.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 .btn-outer-green {
@@ -387,10 +387,9 @@
 
 .footer {
   background-image: url("../images/banner-smoke-bg.png");
-  background-position: center 100px;
+  background-position: center 80px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #111111;
+  background-size: 100%;
   padding-top: 100px;
   overflow: hidden;
   max-height: 500px;
@@ -1696,8 +1695,10 @@
   font-family: 'Exo-Regular';
   font-size: 18px;
   color: #FFFFFF; }
-  .about .section-title {
+  .about .st {
     margin-bottom: 50px; }
+  .about .bt {
+    border-top: solid 3px #aad139; }
   .about .follow {
     margin-top: 100px; }
     .about .follow .title {
@@ -1852,46 +1853,6 @@ a {
     text-decoration: none;
     color: #aad139; }
 
-.section-title {
-  color: #f9e80d;
-  font-family: 'Exo-ExtraBoldItalic';
-  font-size: 30px;
-  position: relative;
-  margin-left: 20px; }
-  .section-title::before {
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 50px;
-    background-color: #aad139;
-    transform: rotate(30deg);
-    top: -5px;
-    left: 5px; }
-  .section-title::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 100%;
-    top: 0px;
-    left: -14px;
-    border-top: solid 35px #111111;
-    border-right: solid 20px transparent; }
-  @media (min-width: 768px) {
-    .section-title {
-      font-size: 50px; }
-      .section-title::before {
-        height: 70px;
-        left: 10px;
-        top: -5px; }
-      .section-title::after {
-        width: 50px;
-        top: 0px;
-        left: -22px;
-        border-top: solid 80px #111111;
-        border-right: solid 46px transparent; } }
-  .section-title.bt {
-    border-top: solid 2px #aad139; }
-
 .featured-title {
   background-color: #aad139;
   display: inline-block;
@@ -1944,3 +1905,41 @@ a {
       font-size: 150px;
       top: calc(50% - 75px);
       left: calc(50% - 75px); } }
+
+.st {
+  border-left: solid 3px transparent;
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  transform: skew(-30deg);
+  overflow: hidden;
+  position: relative; }
+  .st:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 4px;
+    height: 40px;
+    background-color: #aad139;
+    z-index: 2; }
+  .st .st-text {
+    color: #f9e80d;
+    font-family: 'Exo-ExtraBoldItalic';
+    font-size: 30px;
+    position: relative;
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(30deg); }
+    .st .st-text.ti {
+      text-indent: 5px; }
+  @media (min-width: 768px) {
+    .st {
+      margin-left: 20px; }
+      .st:before {
+        height: 70px; }
+      .st .st-text {
+        font-size: 50px;
+        margin-left: -10px;
+        text-indent: 0px; } }
