@@ -2095,9 +2095,8 @@ a {
     -webkit-transform: skew(30deg);
     -moz-transform: skew(30deg);
     -o-transform: skew(30deg);
-    transform: skew(30deg); }
-    .st .st-text.ti {
-      text-indent: 5px; }
+    transform: skew(30deg);
+    margin-left: -5px; }
   @media (min-width: 768px) {
     .st {
       margin-left: 20px; }
@@ -2105,9 +2104,4 @@ a {
         height: 70px; }
       .st .st-text {
         font-size: 50px;
-        margin-left: -10px; }
-        .st .st-text.ti {
-          text-indent: 25px; } }
-  @media (min-width: 1200px) {
-    .st .st-text.ti {
-      text-indent: 0; } }
+        margin-left: -10px; } }

@@ -174,10 +174,7 @@ a{
         -moz-transform: skew(30deg);
         -o-transform: skew(30deg);
         transform: skew(30deg);
-
-        &.ti{
-            text-indent: 5px;
-        }
+        margin-left: -5px;
     }
 
     @media (min-width: 768px){
@@ -189,18 +186,6 @@ a{
         .st-text{
             font-size: 50px;
             margin-left: -10px;
-            
-            &.ti{
-                text-indent: 25px;
-            }
-        }
-    }
-
-    @media (min-width: 1200px){
-        .st-text{
-            &.ti{
-                text-indent: 0;
-            }
         }
     }
 }
