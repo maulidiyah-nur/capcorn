@@ -337,47 +337,39 @@
             padding: 20px;
             border: solid 1px $bg-color;
             margin: 30px 0;
+            
+            .st{
+                margin-bottom: 15px;
+                margin-left: 5px;
 
-            .section-title{
-                color: $bg-color;
-                padding: 30px 0 30px 20px;
-                border-bottom: solid 1px $main-green;
-                margin-left: 0;
-                margin-bottom: 30px;
-
-                &:before{
-                    left: 25px;
-                    top: 20px;
-                }
-                &:after{
-                    top: 20px;
-                    left: 9px;
-                    border-top-color: $white;
+                .st-text{
+                    color: $bg-color;
+                    font-size: 20px;
                 }
 
-                @media (min-width: 768px){
-                    font-size: 38px;
+                @media (min-width: 768px){  
+                    margin-bottom: 30px;                  
+                    margin-left: 10px;
+
                     &:before{
-                        top: 10px;
+                        height: 70px;
                     }
-                    &:after{
-                        top: 10px;
-                        left: -5px;
+                    .st-text{
+                        font-size: 38px;
+                        line-height: 48px;
+                        margin-left: -10px;
+                        text-indent: 0px;
                     }
                 }
             }
 
             .item{
                 padding: 20px 0;
-                border-bottom: solid 1px $main-green;
+                border-top: solid 1px $main-green;
 
                 .title{
                     font-size: 16px;
                     margin: 0;
-                }
-
-                &.last{
-                    border-bottom: none;
                 }
             }
         }
