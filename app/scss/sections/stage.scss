@@ -6,7 +6,7 @@ $slider: rgba(0, 0, 0, .6);
         -webkit-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0);
     }
-    
+
     100% {
         -webkit-transform: translate3d(-50%,0,0);
         transform: translate3d(-50%,0,0);
@@ -43,7 +43,7 @@ $slider: rgba(0, 0, 0, .6);
 
             .content{
                 display: table-cell;
-                vertical-align: middle;               
+                vertical-align: middle;
             }
         }
         .title{
@@ -51,13 +51,16 @@ $slider: rgba(0, 0, 0, .6);
             font-style: italic;
             font-size: 60px;
             color: $white;
+            @media (max-width: 550px) {
+              font-size: 40px;
+            }
         }
     }
 
     .owl-stage-outer{
         width: 100%;
     }
-    
+
     .owl-dots{
         position: absolute;
         bottom: 50px;
@@ -77,4 +80,10 @@ $slider: rgba(0, 0, 0, .6);
             }
         }
     }
+
+}
+.banner-img {
+  @media (max-width: 550px) {
+    max-width: 80%;
+  }
 }

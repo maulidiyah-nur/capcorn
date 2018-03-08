@@ -8,6 +8,9 @@
 
     .st{
         margin-bottom: 50px;
+        @media (max-width: 550px) {
+          margin-bottom: 0px;
+        }
     }
 
     .bt{
@@ -43,9 +46,12 @@
         color: $main-green;
         font-family: 'Exo-BlackItalic', 'Exo-Black';
         font-style: italic;
+        @media (max-width:550px) {
+          padding: 0px 0px 30px;
+        }
 
         .title{
-            font-size: 80px;
+            font-size: 100px;
             margin-bottom: 25px;
         }
         .subtitle{
@@ -165,6 +171,9 @@
                 border: solid 1px $main-green;
                 border-radius: 50%;
                 float: left;
+                @media (max-width: 550px) {
+                  transform: scale(0.7);
+                }
 
                 &:hover{
                     background-color: $main-green;

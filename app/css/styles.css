@@ -407,7 +407,7 @@
   .header .add {
     font-family: 'Exo-Light';
     font-size: 18px;
-    margin: 20px 0;
+    margin: 35px 0;
     float: right; }
     @media (max-width: 1119px) {
       .header .add {
@@ -436,7 +436,8 @@
       .header .menu-res {
         display: inline-block;
         float: right;
-        margin: 20px; }
+        margin: 35px 20px;
+        width: 30px; }
         .header .menu-res::before {
           content: "\f394";
           font-family: "Ionicons";
@@ -590,8 +591,8 @@
 
 @media (max-width: 550px) {
   .foot-logo img {
-    width: 200px;
-    margin: auto;
+    width: 170px;
+    margin: 0px auto -16px;
     display: block; } }
 
 /* home */
@@ -635,6 +636,9 @@
     font-style: italic;
     font-size: 60px;
     color: #FFFFFF; }
+    @media (max-width: 550px) {
+      .stage .item .title {
+        font-size: 40px; } }
   .stage .owl-stage-outer {
     width: 100%; }
   .stage .owl-dots {
@@ -651,6 +655,10 @@
       margin-right: 10px; }
       .stage .owl-dots .owl-dot.active {
         background-color: #f9e80d; }
+
+@media (max-width: 550px) {
+  .banner-img {
+    max-width: 80%; } }
 
 .upcoming {
   position: relative; }
@@ -1266,6 +1274,9 @@
       padding-top: 100px;
       position: relative;
       height: 100%; }
+      @media (max-width: 550px) {
+        .team .featured .profile {
+          padding-top: 70px; } }
       .team .featured .profile .title {
         font-family: 'Exo-Bold';
         font-size: 24px;
@@ -1291,6 +1302,9 @@
         padding: 20px 0;
         position: absolute;
         bottom: 25px; }
+        @media (max-width: 550px) {
+          .team .featured .profile a {
+            bottom: 70px; } }
     @media (max-width: 991px) {
       .team .featured {
         margin-top: 50px; } }
@@ -1749,6 +1763,10 @@
         text-align: center;
         display: inline-bl;
         position: absolute; }
+        @media (max-width: 550px) {
+          .member .owl-carousel .owl-nav .owl-prev,
+          .member .owl-carousel .owl-nav .owl-next {
+            transform: scale(0.8); } }
         .member .owl-carousel .owl-nav .owl-prev:hover,
         .member .owl-carousel .owl-nav .owl-next:hover {
           background-color: #aad139;
@@ -1814,6 +1832,9 @@
   color: #FFFFFF; }
   .about .st {
     margin-bottom: 50px; }
+    @media (max-width: 550px) {
+      .about .st {
+        margin-bottom: 0px; } }
   .about .bt {
     border-top: solid 3px #aad139; }
   .about .follow {
@@ -1838,8 +1859,11 @@
     color: #aad139;
     font-family: 'Exo-BlackItalic', 'Exo-Black';
     font-style: italic; }
+    @media (max-width: 550px) {
+      .about .milestone {
+        padding: 0px 0px 30px; } }
     .about .milestone .title {
-      font-size: 80px;
+      font-size: 100px;
       margin-bottom: 25px; }
     .about .milestone .subtitle {
       font-size: 17px;
@@ -1924,6 +1948,10 @@
         border: solid 1px #aad139;
         border-radius: 50%;
         float: left; }
+        @media (max-width: 550px) {
+          .about .owl-carousel .owl-nav .owl-next,
+          .about .owl-carousel .owl-nav .owl-prev {
+            transform: scale(0.7); } }
         .about .owl-carousel .owl-nav .owl-next:hover,
         .about .owl-carousel .owl-nav .owl-prev:hover {
           background-color: #aad139;
@@ -2049,7 +2077,7 @@ a {
     color: #f9e80d;
     font-family: 'Exo-BlackItalic', 'Exo-Black';
     font-style: italic;
-    font-size: 30px;
+    font-size: 32px;
     position: relative;
     -webkit-transform: skew(30deg);
     -moz-transform: skew(30deg);

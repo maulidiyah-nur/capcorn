@@ -168,13 +168,13 @@ a{
         color: $yellow;
         font-family: 'Exo-BlackItalic', 'Exo-Black';
         font-style: italic;
-        font-size: 30px;
+        font-size: 32px;
         position: relative;
         -webkit-transform: skew(30deg);
         -moz-transform: skew(30deg);
         -o-transform: skew(30deg);
         transform: skew(30deg);
-        
+
         &.ti{
             text-indent: 5px;
         }

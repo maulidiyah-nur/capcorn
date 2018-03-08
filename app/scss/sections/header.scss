@@ -1,4 +1,4 @@
-@keyframes blinker {  
+@keyframes blinker {
     50% { opacity: 0; }
 }
 
@@ -54,7 +54,7 @@
     .add{
         font-family: 'Exo-Light';
         font-size: 18px;
-        margin: 20px 0;
+        margin: 35px 0;
         float: right;
         @media (max-width: 1119px) {
           font-size: 14px;
@@ -92,8 +92,8 @@
         @media (max-width: 1119px) {
             display: inline-block;
             float: right;
-            margin: 20px;
-
+            margin: 35px 20px;
+            width:30px;
             &::before{
                 content: "\f394";
                 font-family: "Ionicons";
