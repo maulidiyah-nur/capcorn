@@ -320,7 +320,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
                 <!-- <div class="sponsor-wrap">
                     <div class="list-sponsor">
                         <div class="item">
@@ -422,8 +422,9 @@
             autoplayHoverPause:true,
             dot: true
         });
-
-        $("#sponsors").newsTicker();
-
+        
+        setTimeout(function(){
+            $("#sponsors").newsTicker();
+        }, 1000);
     })
 </script>
