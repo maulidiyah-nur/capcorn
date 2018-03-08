@@ -722,7 +722,7 @@
       content: "";
       height: 424px;
       top: -365px;
-      left: calc(100% - 155px); }
+      left: calc(100% - 156px); }
     .upcoming .container {
       margin: 0 auto;
       padding: 0 15px;
@@ -2105,5 +2105,9 @@ a {
         height: 70px; }
       .st .st-text {
         font-size: 50px;
-        margin-left: -10px;
-        text-indent: 0px; } }
+        margin-left: -10px; }
+        .st .st-text.ti {
+          text-indent: 25px; } }
+  @media (min-width: 1200px) {
+    .st .st-text.ti {
+      text-indent: 0; } }
