@@ -74,24 +74,31 @@
         margin-right: 20px;
         position: relative;
     }
-    @media (min-width: 992px){
+    @media (min-width: 1200px){
         display: inline-block !important;
     }
 }
 
 .sb-outer{
     width: 100%;
-    background-color: transparent;
+    background-color: $bg-color;
+    background-image: url("../images/arrow-down.svg");
+    background-size: 20px;
+    background-position: center right 10px;
+    background-repeat: no-repeat;
     color: $main-green;
     font-family: 'Exo-Bold';
     font-size: 14px;
     border: solid 1px $main-green;
+    border-radius: 0;
     margin-bottom: 20px;
     padding: 10px;
     box-shadow: none;
     outline: none;
+    -webkit-appearance: none;
+    position: relative;
 
-    @media (min-width: 992px){
+    @media (min-width: 1200px){
         width: auto;
         min-width: 300px;
         margin-right: 20px;
