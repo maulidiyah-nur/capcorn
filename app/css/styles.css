@@ -528,7 +528,8 @@
 
 .footer-b {
   padding: 0 40px 40px 40px;
-  position: relative; }
+  position: relative;
+  overflow: visible; }
   .footer-b::before {
     content: "";
     position: absolute;
@@ -2007,7 +2008,8 @@ body {
 
 section {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  overflow: hidden; }
 
 a {
   cursor: pointer;

@@ -69,6 +69,7 @@
 .footer-b{
     padding: 0 40px 40px 40px;
     position: relative;
+    overflow: visible;
 
     &::before{
         content: "";
