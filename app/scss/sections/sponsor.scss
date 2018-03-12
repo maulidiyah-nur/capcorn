@@ -4,20 +4,20 @@
         transform: translate3d(0, 0, 0);
         visibility: visible;
     }
-  
+
     100% {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
     }
 }
-  
+
 @keyframes ticker {
     0% {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
         visibility: visible;
     }
-  
+
     100% {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
@@ -46,7 +46,7 @@
                 overflow-x: visible;
                 box-sizing: content-box;
 
-                -webkit-animation-iteration-count: infinite; 
+                -webkit-animation-iteration-count: infinite;
                 animation-iteration-count: infinite;
                 -webkit-animation-timing-function: linear;
                 animation-timing-function: linear;
@@ -68,7 +68,7 @@
                 }
             }
         }
-        
+
         @media (min-width: 992px){
             .sponsor-wrap{
                 .list-sponsor{
@@ -82,7 +82,7 @@
 
         @media (min-width: 1200px){
             padding: 50px 0;
-            
+
             .sponsor-wrap{
                 .list-sponsor{
                     .item{
@@ -221,14 +221,15 @@
             top: 0;
             left: 0;
             background-color: black;
-            -webkit-transform: skew(-5deg);
-            -moz-transform: skew(-5deg);
-            -o-transform: skew(-5deg);
-            transform: skew(-5deg);
+            -webkit-transform: skew(-15deg);
+            -moz-transform: skew(-15deg);
+            -o-transform: skew(-15deg);
+            transform: skew(-15deg);
             -moz-box-shadow: inset 0 0 50px $main-green;
             -o-box-shadow: inset 0 0 50px $main-green;
-            -webkit-box-shadow: inset 0 0 50px $main-green;
-            box-shadow: inset 0 0 50px $main-green;
+            -webkit-box-shadow: inset 0 0 25px $main-green;
+            box-shadow: inset 0 0 25px $main-green;
+            border: 1px solid $main-green;
         }
 
         img{

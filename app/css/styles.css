@@ -1512,14 +1512,15 @@
       top: 0;
       left: 0;
       background-color: black;
-      -webkit-transform: skew(-5deg);
-      -moz-transform: skew(-5deg);
-      -o-transform: skew(-5deg);
-      transform: skew(-5deg);
+      -webkit-transform: skew(-15deg);
+      -moz-transform: skew(-15deg);
+      -o-transform: skew(-15deg);
+      transform: skew(-15deg);
       -moz-box-shadow: inset 0 0 50px #aad139;
       -o-box-shadow: inset 0 0 50px #aad139;
-      -webkit-box-shadow: inset 0 0 50px #aad139;
-      box-shadow: inset 0 0 50px #aad139; }
+      -webkit-box-shadow: inset 0 0 25px #aad139;
+      box-shadow: inset 0 0 25px #aad139;
+      border: 1px solid #aad139; }
     .partner .join img {
       margin-top: -75px; }
     .partner .join .title {
