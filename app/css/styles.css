@@ -601,8 +601,9 @@
 @media (max-width: 550px) {
   .foot-logo img {
     width: 170px;
-    margin: 0px auto -16px;
-    display: block; } }
+    margin: 0px 0px -16px;
+    display: block;
+    float: right; } }
 
 /* home */
 @keyframes cloudLoop {
