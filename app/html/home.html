@@ -422,9 +422,8 @@
             autoplayHoverPause:true,
             dot: true
         });
-
-        setTimeout(function(){
-            $("#sponsors").newsTicker();
-        }, 1000);
+    })
+    $(window).on('load', function (e) {
+        $("#sponsors").newsTicker();
     })
 </script>
