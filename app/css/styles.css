@@ -648,7 +648,7 @@
     color: #FFFFFF; }
     @media (max-width: 550px) {
       .stage .item .title {
-        font-size: 40px; } }
+        font-size: 30px; } }
   .stage .owl-stage-outer {
     width: 100%; }
   .stage .owl-dots {
