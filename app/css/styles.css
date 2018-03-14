@@ -1881,7 +1881,8 @@
         padding: 0px 0px 30px; } }
     .about .milestone .title {
       font-size: 100px;
-      margin-bottom: 25px; }
+      margin-top: 25px;
+      line-height: 113px; }
     .about .milestone .subtitle {
       font-size: 17px;
       display: inline-flex;
