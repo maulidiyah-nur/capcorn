@@ -623,18 +623,19 @@
   padding-top: 170px;
   position: relative;
   overflow: hidden; }
-  .stage:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4000px;
-    height: 100%;
-    background-image: url("../images/clouds.png");
-    background-position: 0px 100%;
-    background-repeat: repeat-x;
-    opacity: .5;
-    animation: cloudLoop 120s linear infinite; }
+  @media (min-width: 1025px) {
+    .stage:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4000px;
+      height: 100%;
+      background-image: url("../images/clouds.png");
+      background-position: 0px 100%;
+      background-repeat: repeat-x;
+      opacity: .5;
+      animation: cloudLoop 120s linear infinite; } }
   .stage .item .wrapper {
     display: table;
     height: 100%; }
